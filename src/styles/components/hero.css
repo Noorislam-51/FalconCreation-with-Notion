@@ -1,0 +1,141 @@
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(9, 8, 8);
+  /* background: url('/assets/hero-bg.jpg') no-repeat center center/cover; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5%;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.hero-subtext {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #ccc;
+  text-align: left;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  /* margin-bottom: 25px; */
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border: none;
+}
+
+.primary-btn {
+  background-color: #00b894;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #019270;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero-socials {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.3rem;
+}
+
+.hero-socials a {
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+.hero-socials a:hover {
+  color: #00b894;
+}
+
+.hero-nav {
+  position: absolute;
+  left: 30px;
+  top: 40%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1rem;
+  color: #999;
+}
+
+.hero-nav span {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.hero-nav span:hover {
+  color: white;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.scroll-down::after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 20px;
+  background: #aaa;
+  margin: 5px auto 0;
+}
