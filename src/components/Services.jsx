@@ -1,27 +1,41 @@
-// src/components/Modal.jsx
-import React from 'react';
-import '../styles/components/Modal.css';  // You can create separate CSS for modal or keep in services.css
+import React, { useState } from 'react';
+import servicesData from '../data/servicesData';
+import Modal from './ServiceModal';
+import '../styles/components/services.css';
 
-const Modal = ({ service, onClose }) => {
-  if (!service) return null;
-
-  const { title, intro, services, cta } = service.modal;
+const Services = () => {
+  const [activeModal, setActiveModal] = useState(null);
 
   return (
-    <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal-content" onClick={e => e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}>×</button>
-        <h2>{title}</h2>
-        <p className="modal-intro">{intro}</p>
-        <ul className="modal-list">
-          {services.map((item, index) => (
-            <li key={index}>• {item}</li>
-          ))}
-        </ul>
-        <button className="modal-cta">{cta}</button>
+   <section className="services-section">
+  <span className="section-label">Services</span>
+  <h2 className="services-title">Our trusted clients</h2>
+  <p className="services-subtitle">
+    Our mission is to drive progress and enhance the lives of our customers by delivering superior products and services that exceed expectations.
+  </p>
+
+  <div className="services-grid">
+    {servicesData.map((service, index) => (
+      <div key={service.id} className={`service-card ${service.bgClass}`}>
+        <div className="icon-wrapper">
+          <i className={`${service.iconClass} ${service.colorClass}`}></i>
+        </div>
+        <p className="card-index">{`0${index + 1}`}</p>
+        <h3 className="service-title">{service.title}</h3>
+        <p className="service-description">{service.description}</p>
+        <button className="readmore-btn" onClick={() => setActiveModal(service)}>
+          Read more <span>→</span>
+        </button>
       </div>
-    </div>
+    ))}
+  </div>
+
+  <button className="hire-btn">Hire Us Today →</button>
+
+  <Modal service={activeModal} onClose={() => setActiveModal(null)} />
+</section>
+
   );
 };
 
-export default Modal;
+export default Services;

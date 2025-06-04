@@ -4,7 +4,7 @@ const servicesData = [
     title: "Web Development",
     description: "Craft responsive, scalable websites.",
     iconClass: "fa-solid fa-code",
-      avatar: "https://img.icons8.com/ios-filled/100/000000/developer.png"`,
+    avatar: "https://img.icons8.com/ios-filled/100/000000/developer.png",
     bgClass: "bg-blue",
     colorClass: "icon-blue",
     modal: {
