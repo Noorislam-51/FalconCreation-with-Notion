@@ -1,0 +1,155 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-logo img {
+  width: 40px;
+  height: auto;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-menu li a:hover {
+  color: #38bdf8;
+}
+
+/* Footer */
+.footer {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-left {
+  flex: 1 1 250px;
+  text-align: left;
+}
+
+.footer-logo {
+  width: 50px;
+  height: auto;
+}
+
+.footer-tagline {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #cbd5e1;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 150px;
+}
+
+.footer-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-menu a:hover {
+  color: #38bdf8;
+}
+
+.footer-contact {
+  flex: 1 1 200px;
+  text-align: left;
+}
+
+.footer-contact a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.footer-social {
+  margin-top: 10px;
+  display: flex;
+  gap: 16px;
+  font-size: 1.5rem;
+}
+
+.footer-social a {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #38bdf8;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-contact {
+    text-align: center;
+  }
+
+  .footer-menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,19 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import Navbar from './Navbar';
 import '../styles/components/hero.css';
+
 import { FaInstagram, FaLinkedin, FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
+import ContactModal from './ContactModal';
 
 const Hero = () => {
+   const [isModalOpen, setIsModalOpen] = useState(false);
+
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
+  const openModal = () => {
+    document.body.style.overflow = 'hidden'; // prevent scroll
+    setIsModalOpen(true);
+  };
 
+  const closeModal = () => {
+    document.body.style.overflow = 'auto';
+    setIsModalOpen(false);
+  };
   return (
     <>
       <Navbar />
       <section className="hero-section" id="home">
-       
+
 
         <div className="hero-wrapper">
           <div className="hero-text">
@@ -25,8 +38,8 @@ const Hero = () => {
               stunning designs, and engaging videos to grow your brand online.
             </p>
             <div className="hero-buttons">
-              <button className="btn primary-btn" onClick={() => scrollToSection('services')}>
-                Explore Services
+              <button className="btn primary-btn" onClick={openModal}>
+                Hire Us Today
               </button>
               <button className="btn secondary-btn" onClick={() => scrollToSection('contact')}>
                 Get a Quote
@@ -43,8 +56,17 @@ const Hero = () => {
           </div>
         </div>
 
-       
+
       </section>
+      
+      {isModalOpen && (
+        <div className="modal-backdrop">
+          <div className="modal-content">
+            <button className="close-btn" onClick={closeModal}>×</button>
+            <ContactModal />
+          </div>
+        </div>
+      )}
     </>
   );
 };
