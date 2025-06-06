@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../styles/components/navbar.css'; // Ensure your CSS handles .navbar, .nav, .hamburger, etc.
+import '../styles/components/navbar.css'; 
 import ContactModal from './ContactModal';
-import Logo from '../assets/logos/Logo.png'
+// import Logo from '../assets/logos/Logo.png'
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <header className="navbar" data-aos="fade-down" data-aos-once="true">
       <div className="logo" onClick={() => scrollToSection('home')}>
-        <img src={Logo} alt="FalconCreation Logo" className="logo-img" />
+        <img src="" alt="FalconCreation Logo" className="logo-img" />
       </div>
 
 

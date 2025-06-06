@@ -7,11 +7,16 @@ const ContactModal = ({ variant = "default" }) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     projectType: 'Web',
     subservice: '',
-    message: ''
+    message: '',
+    budget: '',
+    timeline: '',
+    preferredContact: ''
   });
 
+  const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const handleInputChange = (e) => {
@@ -22,31 +27,39 @@ const ContactModal = ({ variant = "default" }) => {
     }));
   };
 
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0]);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
     const webhookURL = "https://hook.eu2.make.com/3fes9g474a7ddap9wuhj8nxk1d13p7c5";
 
-    try {
-      const response = await axios.post(webhookURL, formData);
+    const formDataToSend = new FormData();
+    for (let key in formData) {
+      formDataToSend.append(key, formData[key]);
+    }
+    if (file) formDataToSend.append('file', file);
 
+    try {
+      const response = await axios.post(webhookURL, formDataToSend);
       if (response.status === 200) {
         alert("Message sent successfully!");
-
         setFormData({
           name: '',
           email: '',
+          phone: '',
           projectType: 'Web',
           subservice: '',
-          message: ''
+          message: '',
+          budget: '',
+          timeline: '',
+          preferredContact: ''
         });
-
-        // Optional: Reload after 1.5 seconds
-        setTimeout(() => {
-          window.location.reload();
-        }, 1500);
-
+        setFile(null);
+        setTimeout(() => window.location.reload(), 1500);
       } else {
         alert("Failed to send message, please try again.");
       }
@@ -58,14 +71,13 @@ const ContactModal = ({ variant = "default" }) => {
     setLoading(false);
   };
 
-  // Inject CSS styles once
   useEffect(() => {
     const styleId = 'contact-form-styles';
     if (document.getElementById(styleId)) return;
 
     const style = document.createElement('style');
     style.id = styleId;
-    style.innerHTML = ``; // Optional: Add inline styles here if needed
+    style.innerHTML = ``;
     document.head.appendChild(style);
 
     return () => {
@@ -80,93 +92,101 @@ const ContactModal = ({ variant = "default" }) => {
   const subservices = selectedService?.modal?.services || [];
 
   return (
-    <div className="contact-form">
-      <form onSubmit={handleSubmit}>
-        <div className="form-row">
-          <div className="form-group">
-            <label>Your Name</label>
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleInputChange}
-              placeholder="Enter your full name"
-              className="form-input"
-              required
-            />
-          </div>
+  <div className="contact-form">
+    <form onSubmit={handleSubmit}>
 
-          <div className="form-group">
-            <label>Your Email</label>
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleInputChange}
-              placeholder="Enter your email address"
-              className="form-input"
-              required
-            />
-          </div>
-        </div>
-
+      {/* Name, Email, Phone, Preferred Contact in one line */}
+      <div className="form-row">
         <div className="form-group">
-          <label>Project Type</label>
-          <select
-            name="projectType"
-            value={formData.projectType}
-            onChange={handleInputChange}
-            className="form-input form-select"
-            required
-          >
-            <option value="">-- Select Service --</option>
-            {servicesData.map((service) => (
-              <option key={service.id} value={service.title}>
-                {service.title}
-              </option>
+          <label>Your Name</label>
+          <input type="text" name="name" value={formData.name} onChange={handleInputChange} placeholder="Full name" className="form-input" required />
+        </div>
+        <div className="form-group">
+          <label>Email</label>
+          <input type="email" name="email" value={formData.email} onChange={handleInputChange} placeholder="Email address" className="form-input" required />
+        </div>
+        <div className="form-group">
+          <label>Phone</label>
+          <input type="tel" name="phone" value={formData.phone} onChange={handleInputChange} placeholder="Optional" className="form-input" />
+        </div>
+        <div className="form-group">
+          <label>Preferred Contact</label>
+          <select name="preferredContact" value={formData.preferredContact} onChange={handleInputChange} className="form-input form-select">
+            <option value="">-- Select --</option>
+            <option value="Email">Email</option>
+            <option value="Phone">Phone</option>
+            <option value="WhatsApp">WhatsApp</option>
+          </select>
+        </div>
+      </div>
+
+      {/* Project Type */}
+      <div className="form-group">
+        <label>Project Type</label>
+        <select name="projectType" value={formData.projectType} onChange={handleInputChange} className="form-input form-select" required>
+          <option value="">-- Select Service --</option>
+          {servicesData.map((service) => (
+            <option key={service.id} value={service.title}>{service.title}</option>
+          ))}
+        </select>
+      </div>
+
+      {/* Subservice */}
+      {subservices.length > 0 && (
+        <div className="form-group">
+          <label>Subservice</label>
+          <select name="subservice" value={formData.subservice} onChange={handleInputChange} className="form-input form-select" required>
+            <option value="">-- Select Subservice --</option>
+            {subservices.map((sub, idx) => (
+              <option key={idx} value={sub}>{sub}</option>
             ))}
           </select>
         </div>
+      )}
 
-        {subservices.length > 0 && (
-          <div className="form-group">
-            <label>Subservice</label>
-            <select
-              name="subservice"
-              value={formData.subservice}
-              onChange={handleInputChange}
-              className="form-input form-select"
-              required
-            >
-              <option value="">-- Select Subservice --</option>
-              {subservices.map((sub, idx) => (
-                <option key={idx} value={sub}>
-                  {sub}
-                </option>
-              ))}
-            </select>
-          </div>
-        )}
-
+      {/* Budget and Timeline in one row */}
+      <div className="form-row">
         <div className="form-group">
-          <label>Message</label>
-          <textarea
-            name="message"
-            value={formData.message}
-            onChange={handleInputChange}
-            placeholder="Tell us about your project, goals, and timeline..."
-            className="form-textarea"
-            rows="5"
-            required
-          ></textarea>
+          <label>Budget</label>
+          <select name="budget" value={formData.budget} onChange={handleInputChange} className="form-input form-select">
+            <option value="">-- Select Budget --</option>
+            <option value="Under $50">Under $50</option>
+            <option value="$100 - $200">$100 - $200</option>
+            <option value="$200 - $500">$200 - $500</option>
+            <option value="$500 - $1000">$500 - $1000</option>
+            <option value="Above $1000">Above $1000</option>
+            <option value="Other">Other</option>
+          </select>
+          {formData.budget === 'Other' && (
+            <input type="number" name="customBudget" placeholder="Enter your budget in $" value={formData.customBudget || ''} onChange={handleInputChange} className="form-input" min="1" />
+          )}
         </div>
 
-        <button type="submit" className="submit-button" disabled={loading}>
-          {loading ? "Sending..." : "Send Message"}
-        </button>
-      </form>
-    </div>
-  );
+        <div className="form-group">
+          <label>Timeline</label>
+          <input type="text" name="timeline" value={formData.timeline} onChange={handleInputChange} placeholder="e.g. 2 weeks, 1 month" className="form-input" />
+        </div>
+      </div>
+
+      {/* Message */}
+      <div className="form-group">
+        <label>Message</label>
+        <textarea name="message" value={formData.message} onChange={handleInputChange} placeholder="Tell us about your project..." className="form-textarea" rows="5" required />
+      </div>
+
+      {/* File */}
+      <div className="form-group">
+        <label>File Attachment</label>
+        <input type="file" name="file" onChange={handleFileChange} className="form-input" />
+      </div>
+
+      <button type="submit" className="submit-button" disabled={loading}>
+        {loading ? "Sending..." : "Send Message"}
+      </button>
+    </form>
+  </div>
+);
+
 };
 
 export default ContactModal;

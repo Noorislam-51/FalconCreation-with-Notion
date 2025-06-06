@@ -1,0 +1,244 @@
+.portfolio-section {
+  padding: 60px 30px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.portfolio-heading {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.portfolio-subheading {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.portfolio-menu {
+  margin-bottom: 30px;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: 2px solid #444;
+  color: #444;
+  padding: 10px 20px;
+  margin: 0 8px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-button.active,
+.menu-button:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.portfolio-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  flex: 0 0 18%; /* 5 cards visible */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  user-select: none;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.media-wrapper {
+  height: 240px; /* 80% of 300px */
+  overflow: hidden;
+  position: relative;
+}
+
+.media-wrapper img,
+.media-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-bottom {
+  padding: 15px;
+  background: #fff;
+  text-align: center;
+}
+
+.project-button {
+  padding: 8px 15px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.project-button:hover {
+  background-color: #555;
+}
+
+.freelancer-name {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 8px;
+}
+
+.view-more-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.view-more-button {
+  background: #444;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.view-more-button:hover {
+  background: #000;
+}
+
+/* Modal Styles */
+.portfolio-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 25px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 8px;
+  position: relative;
+  text-align: left;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+}
+
+.modal-media img,
+.modal-media video {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.close-button {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+  user-select: none;
+}
+
+/* Slider */
+.slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.portfolio-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 20px 0;
+  width: 90%;
+  scrollbar-width: none; /* Firefox */
+}
+
+.portfolio-slider::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+.slider-arrow {
+  background: #444;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.slider-arrow:hover {
+  background: #000;
+}
+
+.slider-arrow.left {
+  margin-right: 10px;
+}
+
+.slider-arrow.right {
+  margin-left: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .portfolio-card {
+    width: 90%;
+  }
+
+  .media-wrapper {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-button {
+    font-size: 0.85rem;
+    padding: 8px 16px;
+  }
+
+  .portfolio-slider {
+    width: 100%;
+  }
+
+  .slider-arrow {
+    padding: 8px;
+    font-size: 20px;
+  }
+}

@@ -50,6 +50,7 @@
 
 .service-card:hover {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+  transform: translateY(-5px);
 }
 
 .icon-wrapper {
@@ -106,6 +107,18 @@
   color: #db1cce;
 }
 
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-row .form-group {
+  flex: 1 1 200px; /* Makes them responsive */
+  min-width: 200px;
+}
+
 /* Color Themes */
 .bg-blue { background-color: #eff6ff; }
 .bg-pink { background-color: #fce7f3; }
@@ -150,13 +163,14 @@
 body.modal-open {
   overflow: hidden;
 }
+
 /* Modal Container */
 .modal-content {
   background: #ffffff;
   padding: 30px 25px;
   border-radius: 15px;
   width: 90%;
-  max-width: 720px; /* Increased from 480px to 720px */
+  max-width: 720px;
   max-height: 80vh;
   overflow-y: auto;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
@@ -195,11 +209,6 @@ body.modal-open {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   font-size: 28px;
 }
-
-/* Color Variants for Icon */
-.icon-blue { color: #3b82f6; }
-.icon-pink { color: #ec4899; }
-.icon-green { color: #10b981; }
 
 /* Modal Heading */
 .modal-heading {
@@ -242,12 +251,10 @@ body.modal-open {
   transition: transform 0.2s ease;
 }
 
-/* Add hover pop effect */
 .modal-service-box:hover {
   transform: translateY(-3px);
 }
 
-/* Icon inside each sub-service */
 .check-icon {
   color: #10b981;
   font-size: 16px;

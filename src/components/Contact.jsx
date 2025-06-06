@@ -4,7 +4,7 @@ import ContactModal from './ContactModal';
 
 const ContactForm = () => {
   return (
-    <div className="contact-container" id="">
+    <div className="contact-container" id="Contact">
       <div className="contact-wrapper">
         <h1 className="main-title">Get In Touch</h1>
         <p className="subtitle">
