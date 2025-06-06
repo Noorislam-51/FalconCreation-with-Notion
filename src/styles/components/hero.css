@@ -1,20 +1,20 @@
 .hero-section {
   height: 100vh;
   width: 100%;
-  background-color: rgb(9, 8, 8);
-  /* background: url('/assets/hero-bg.jpg') no-repeat center center/cover; */
+  background: url('https://images.unsplash.com/photo-1713086891023-8077674610bd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
   position: relative;
   display: flex;
   align-items: center;
   color: white;
   overflow: hidden;
+  padding: 0 5%; /* Equal padding on both sides */
 }
 
 .hero-section::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
@@ -24,7 +24,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 0 5%;
   align-items: center;
 }
 
@@ -52,7 +51,6 @@
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
-  /* margin-bottom: 25px; */
 }
 
 .btn {
@@ -84,6 +82,7 @@
   color: black;
 }
 
+/* 🔥 Enhanced Social Media Icons */
 .hero-socials {
   position: absolute;
   right: 30px;
@@ -92,15 +91,25 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .hero-socials a {
   color: #ccc;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .hero-socials a:hover {
-  color: #00b894;
+  color: white;
+  background-color: #00b894;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .hero-nav {
@@ -119,6 +128,7 @@
   cursor: pointer;
   transition: color 0.3s ease;
 }
+
 .hero-nav span:hover {
   color: white;
 }
@@ -139,6 +149,7 @@
   background: #aaa;
   margin: 5px auto 0;
 }
+
 .modal-backdrop {
   position: fixed;
   top: 0;

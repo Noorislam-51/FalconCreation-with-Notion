@@ -38,7 +38,7 @@ const Hero = () => {
             </p>
             <div className="hero-buttons">
               <button className="btn primary-btn" onClick={openModal}>
-                Hire Us Today
+               Hire Us Today →
               </button>
               <button className="btn secondary-btn" onClick={() => scrollToSection('About')}>
                 Learn More

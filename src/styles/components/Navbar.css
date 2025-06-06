@@ -3,7 +3,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px 30px;
-  background-color: #93dbfa;
+  background-color: rgba(255, 255, 255, 0.1); /* light transparent layer /
+  backdrop-filter: blur(10px); / blur effect /
+  -webkit-backdrop-filter: blur(10px); / Safari support */
   color: white;
   position: fixed;
   top: 0;

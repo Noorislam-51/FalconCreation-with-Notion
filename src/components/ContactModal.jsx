@@ -170,15 +170,15 @@ const ContactModal = ({ variant = "default" }) => {
 
       {/* Message */}
       <div className="form-group">
-        <label>Message</label>
+        <label>Project Description</label>
         <textarea name="message" value={formData.message} onChange={handleInputChange} placeholder="Tell us about your project..." className="form-textarea" rows="5" required />
       </div>
 
       {/* File */}
-      <div className="form-group">
+      {/* <div className="form-group">
         <label>File Attachment</label>
         <input type="file" name="file" onChange={handleFileChange} className="form-input" />
-      </div>
+      </div> */}
 
       <button type="submit" className="submit-button" disabled={loading}>
         {loading ? "Sending..." : "Send Message"}

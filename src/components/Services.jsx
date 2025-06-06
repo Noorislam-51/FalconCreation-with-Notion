@@ -29,7 +29,7 @@ const Services = () => {
   };
 
   return (
-    <section className="services-section" id="Service">
+    <section className="services-section" id="Services">
       <span className="section-label">Services</span>
       <h2 className="services-title">Our trusted clients</h2>
       <p className="services-subtitle">

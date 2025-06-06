@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <header className="navbar" data-aos="fade-down" data-aos-once="true">
       <div className="logo" onClick={() => scrollToSection('home')}>
-        <img src="" alt="FalconCreation Logo" className="logo-img" />
+        <img src="./public/logos/Logo.png" alt="FalconCreation Logo" className="logo-img" />
       </div>
 
 
@@ -48,7 +48,7 @@ const Navbar = () => {
 
       {/* CTA Button */}
       <button className="btn btn-success rounded-pill px-4" onClick={openModal}>
-        Hire Us Today
+       Hire Us Today →
       </button>
 
       {isModalOpen && (
