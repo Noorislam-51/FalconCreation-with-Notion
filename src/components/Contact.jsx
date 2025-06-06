@@ -4,7 +4,7 @@ import ContactModal from './ContactModal';
 
 const ContactForm = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="">
       <div className="contact-wrapper">
         <h1 className="main-title">Get In Touch</h1>
         <p className="subtitle">
@@ -32,7 +32,7 @@ const ContactForm = () => {
               <div className="contact-item">
                 <div className="contact-icon">✉️</div>
                 <div className="contact-text">
-                  Support@nurengly.com
+                  <a href="mailto:falconcreation5114@gmail.com">falconcreation5114@gmail.com</a>
                 </div>
               </div>
 

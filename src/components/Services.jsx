@@ -3,11 +3,24 @@ import servicesData from '../data/servicesData';
 import Modal from './ServiceModal';
 import '../styles/components/services.css';
 
+import '../styles/components/navbar.css'; // Ensure your CSS handles .navbar, .nav, .hamburger, etc.
+import ContactModal from './ContactModal';
+
 const Services = () => {
-  const [activeModal, setActiveModal] = useState(null);
+   const [isModalOpen, setIsModalOpen] = useState(false);
+    const openModal = () => {
+      document.body.style.overflow = 'hidden'; // prevent scroll
+      setIsModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      document.body.style.overflow = 'auto';
+      setIsModalOpen(false);
+    };
+  
 
   return (
-   <section className="services-section">
+   <section className="services-section"  id="Service">
   <span className="section-label">Services</span>
   <h2 className="services-title">Our trusted clients</h2>
   <p className="services-subtitle">
@@ -30,9 +43,18 @@ const Services = () => {
     ))}
   </div>
 
-  <button className="hire-btn">Hire Us Today →</button>
+  <button className="hire-btn" onClick={openModal}>Hire Us Today →</button>
 
-  <Modal service={activeModal} onClose={() => setActiveModal(null)} />
+   {isModalOpen && (
+        <div className="modal-backdrop"
+          onClick={closeModal}>
+          <div className="modal-content"
+            onClick={(e) => e.stopPropagation()} >
+            <button className="close-btn" onClick={closeModal}>×</button>
+            <ContactModal />
+          </div>
+        </div>
+      )}
 </section>
 
   );

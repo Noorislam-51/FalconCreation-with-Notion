@@ -3,18 +3,35 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px 30px;
-  background-color: #111;
+  background-color: #93dbfa;
   color: white;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
 }
+.logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.logo-img {
+  height: 40px; /* example size */
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-weight: bold;
+  color: white;
+}
+
+/* 
 .logo {
   font-size: 1.5rem;
   cursor: pointer;
-}
+} */
 
 .nav {
   display: flex;

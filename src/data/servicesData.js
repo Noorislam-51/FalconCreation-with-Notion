@@ -12,8 +12,8 @@ const servicesData = [
       intro: "We build responsive, fast, and scalable websites that meet your business goals.",
       services: [
         "WordPress Development (Custom + SEO-friendly)",
-        "Frontend Development (HTML, CSS, JavaScript)",
-        "Backend Development (PHP, Node.js)",
+        "Frontend Development (HTML CSS JavaScript & React)",
+        "Backend Development (PHP Node.js)",
         "Full Stack Development",
         "Elementor Page Design",
         "Webflow (No Code)",

@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-
 import Navbar from './Navbar';
 import '../styles/components/hero.css';
-
-import { FaInstagram, FaLinkedin, FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
 import ContactModal from './ContactModal';
 
+import { FaInstagram, FaLinkedin, FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
+
 const Hero = () => {
-   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
@@ -25,7 +24,7 @@ const Hero = () => {
   return (
     <>
       <Navbar />
-      <section className="hero-section" id="home">
+      <section className="hero-section" id="Home">
 
 
         <div className="hero-wrapper">
@@ -41,14 +40,14 @@ const Hero = () => {
               <button className="btn primary-btn" onClick={openModal}>
                 Hire Us Today
               </button>
-              <button className="btn secondary-btn" onClick={() => scrollToSection('contact')}>
-                Get a Quote
+              <button className="btn secondary-btn" onClick={() => scrollToSection('About')}>
+                Learn More
               </button>
             </div>
           </div>
 
           <div className="hero-socials">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://www.instagram.com/falconcreation5114/?hl=en" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
@@ -58,10 +57,12 @@ const Hero = () => {
 
 
       </section>
-      
+
       {isModalOpen && (
-        <div className="modal-backdrop">
-          <div className="modal-content">
+        <div className="modal-backdrop"
+          onClick={closeModal}>
+          <div className="modal-content"
+            onClick={(e) => e.stopPropagation()} >
             <button className="close-btn" onClick={closeModal}>×</button>
             <ContactModal />
           </div>

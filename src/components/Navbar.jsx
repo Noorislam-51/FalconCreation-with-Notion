@@ -1,7 +1,20 @@
 import React, { useState } from 'react';
 import '../styles/components/navbar.css'; // Ensure your CSS handles .navbar, .nav, .hamburger, etc.
+import ContactModal from './ContactModal';
+import Logo from '../assets/logos/Logo.png'
 
 const Navbar = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = () => {
+    document.body.style.overflow = 'hidden'; // prevent scroll
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    document.body.style.overflow = 'auto';
+    setIsModalOpen(false);
+  };
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -13,15 +26,17 @@ const Navbar = () => {
     if (element) element.scrollIntoView({ behavior: 'smooth' });
   };
 
+
   return (
     <header className="navbar" data-aos="fade-down" data-aos-once="true">
-      <div className="logo text-white fw-bold" onClick={() => scrollToSection('home')}>
-        FalconCreation
+      <div className="logo" onClick={() => scrollToSection('home')}>
+        <img src={Logo} alt="FalconCreation Logo" className="logo-img" />
       </div>
+
 
       <nav className={`nav ${menuOpen ? 'active' : ''}`}>
         <ul className="nav-list">
-          {['home', 'services', 'portfolio', 'about', 'contact'].map((id) => (
+          {['Home', 'Services', 'Portfolio', 'About', 'Contact'].map((id) => (
             <li className="nav-item" key={id}>
               <button className="nav-link text-white" onClick={() => scrollToSection(id)}>
                 {id.toUpperCase()}
@@ -31,11 +46,23 @@ const Navbar = () => {
         </ul>
       </nav>
 
-       {/* CTA Button */}
-          <button className="btn btn-success rounded-pill px-4">
-            Get a Quote
-          </button>
+      {/* CTA Button */}
+      <button className="btn btn-success rounded-pill px-4" onClick={openModal}>
+        Hire Us Today
+      </button>
+
+      {isModalOpen && (
+        <div className="modal-backdrop"
+          onClick={closeModal}>
+          <div className="modal-content"
+            onClick={(e) => e.stopPropagation()} >
+            <button className="close-btn" onClick={closeModal}>×</button>
+            <ContactModal />
+          </div>
+        </div>
+      )}
     </header>
+
   );
 };
 

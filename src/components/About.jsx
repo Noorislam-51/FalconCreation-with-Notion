@@ -3,7 +3,7 @@ import '../styles/components/About.css';
 
 const About = () => {
   return (
-    <div className="agency-container">
+    <div className="agency-container"  id="About">
       <div className="agency-main">
 
         {/* Visual/Illustration Section */}

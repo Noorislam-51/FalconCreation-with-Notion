@@ -9,10 +9,10 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
-      <Hero />
-      <Services />
-      <About />
-      <Contact />
+      <Hero id="Hero" />
+      <Services id="Service"  />
+      <About id="About" />
+      <Contact id="Contact" />
       <Footer />
     </>
   );
