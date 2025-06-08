@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import servicesData from '../data/servicesData';
 import ServiceModal from './ServiceModal'; // renamed modal for service detail
 import '../styles/components/services.css';
+import '../styles/globals.css';
 import ContactModal from './ContactModal';
 
 const Services = () => {
@@ -30,9 +31,9 @@ const Services = () => {
 
   return (
     <section className="services-section" id="Services">
-      <span className="section-label">Services</span>
-      <h2 className="services-title">Our trusted clients</h2>
-      <p className="services-subtitle">
+      <span className="label">Services</span>
+      <h2 className="title">What We Offer</h2>
+      <p className="subtitle">
         Our mission is to drive progress and enhance the lives of our customers by delivering superior products and services that exceed expectations.
       </p>
 
@@ -52,7 +53,7 @@ const Services = () => {
         ))}
       </div>
 
-      <button className="hire-btn" onClick={openContactModal}>Hire Us Today →</button>
+      <button className="btn primary-btn service-btn " onClick={openContactModal}>Hire Us Today →</button>
 
       {/* Service Detail Modal */}
       {activeService && (

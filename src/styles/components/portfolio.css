@@ -1,13 +1,28 @@
+:root {
+  --Primary: #000000;
+  --Secondary: #2C2C2C;
+  --Accent: #007BFF;
+  --Accent-hover: #0056b3;
+  --Highlight: #FFD700;
+  --Card-bg: #FAFAFA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .portfolio-section {
   padding: 60px 30px;
-  background: #f9f9f9;
+  background: var(--Card-bg);
   text-align: center;
 }
 
 .portfolio-heading {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #333;
+  color: var(--Primary);
 }
 
 .portfolio-subheading {
@@ -22,8 +37,8 @@
 
 .menu-button {
   background-color: transparent;
-  border: 2px solid #444;
-  color: #444;
+  border: 2px solid var(--Secondary);
+  color: var(--Secondary);
   padding: 10px 20px;
   margin: 0 8px 10px;
   font-size: 1rem;
@@ -33,90 +48,121 @@
 
 .menu-button.active,
 .menu-button:hover {
-  background-color: #444;
+  background-color: var(--Secondary);
   color: #fff;
 }
 
-.portfolio-grid {
+/* Slider */
+.slider-container {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  align-items: center;
   justify-content: center;
+  margin-top: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.portfolio-card {
-  background: #fff;
-  border: 1px solid #ddd;
-  flex: 0 0 18%; /* 5 cards visible */
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--Secondary);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.2s;
   user-select: none;
 }
 
-.portfolio-card:hover {
-  transform: translateY(-5px);
+.slider-arrow.left {
+  left: 0;
 }
 
-.media-wrapper {
-  height: 240px; /* 80% of 300px */
+.slider-arrow.right {
+  right: 0;
+}
+
+.slider-arrow:hover {
+  background: var(--Primary);
+}
+
+.portfolio-slider {
+  display: flex;
+  /* Remove wrapping */
+  flex-wrap: nowrap;  /* Changed from wrap to nowrap */
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 0;
+  width: 90%;
+  max-height: 250px; /* adjust height to card height + padding */
+  scrollbar-width: none;
+}
+
+
+
+.portfolio-slider::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+
+
+/* Card Style */
+.portfolio-card {
+  background: #fff;
+  flex: 0 0 auto;
+  /* Important: don't shrink or grow, fixed width */
+  width: 300px;
+  /* fixed width for horizontal scrolling */
+  height: 200px;
+  /* increased height for better view */
+  cursor: pointer;
   overflow: hidden;
   position: relative;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
-.media-wrapper img,
-.media-wrapper video {
+
+.portfolio-card:hover {
+  transform: scale(1.02);
+}
+
+.media-wrapper.banner-style img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+  border-radius: 8px;
 }
 
-.card-bottom {
-  padding: 15px;
-  background: #fff;
-  text-align: center;
+.media-wrapper.banner-style {
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
-.project-button {
-  padding: 8px 15px;
-  background-color: #222;
+
+
+.freelancer-overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
   color: #fff;
-  border: none;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: background 0.2s;
-}
-
-.project-button:hover {
-  background-color: #555;
-}
-
-.freelancer-name {
-  font-size: 0.85rem;
-  color: #777;
-  margin-top: 8px;
-}
-
-.view-more-container {
-  margin-top: 30px;
-  text-align: center;
-}
-
-.view-more-button {
-  background: #444;
-  color: #fff;
-  padding: 10px 25px;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.view-more-button:hover {
-  background: #000;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 4px;
 }
 
 /* Modal Styles */
@@ -126,7 +172,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,6 +204,12 @@
   border-radius: 5px;
 }
 
+.freelancer-name {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 8px;
+}
+
 .close-button {
   position: absolute;
   right: 15px;
@@ -165,69 +217,19 @@
   font-size: 26px;
   font-weight: bold;
   cursor: pointer;
-  color: #333;
+  color: var(--Secondary);
   user-select: none;
-}
-
-/* Slider */
-.slider-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.portfolio-slider {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  gap: 20px;
-  padding: 20px 0;
-  width: 90%;
-  scrollbar-width: none; /* Firefox */
-}
-
-.portfolio-slider::-webkit-scrollbar {
-  display: none; /* Chrome */
-}
-
-.slider-arrow {
-  background: #444;
-  color: white;
-  border: none;
-  font-size: 24px;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 10;
-  transition: background 0.2s;
-  user-select: none;
-}
-
-.slider-arrow:hover {
-  background: #000;
-}
-
-.slider-arrow.left {
-  margin-right: 10px;
-}
-
-.slider-arrow.right {
-  margin-left: 10px;
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .portfolio-card {
-    width: 90%;
-  }
-
-  .media-wrapper {
-    height: 200px;
+    width: 100%;
+    aspect-ratio: 3 / 1.2;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .menu-button {
     font-size: 0.85rem;
     padding: 8px 16px;
@@ -240,5 +242,10 @@
   .slider-arrow {
     padding: 8px;
     font-size: 20px;
+  }
+
+  .portfolio-card {
+    width: 100%;
+    aspect-ratio: 3 / 1.5;
   }
 }

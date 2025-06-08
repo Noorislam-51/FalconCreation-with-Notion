@@ -180,7 +180,7 @@ const ContactModal = ({ variant = "default" }) => {
         <input type="file" name="file" onChange={handleFileChange} className="form-input" />
       </div> */}
 
-      <button type="submit" className="submit-button" disabled={loading}>
+      <button type="submit" className="btn primary-btn contact-btn" disabled={loading}>
         {loading ? "Sending..." : "Send Message"}
       </button>
     </form>

@@ -2,33 +2,7 @@
 .services-section {
   padding: 60px 20px;
   text-align: center;
-  background-color: #f9fafb;
-}
-
-.section-label {
-  display: inline-block;
-  background-color: #f81ce5;
-  color: #fff;
-  font-weight: bold;
-  padding: 5px 14px;
-  font-size: 13px;
-  border-radius: 20px;
-  margin-bottom: 12px;
-}
-
-.services-title {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 12px;
-  color: #111;
-}
-
-.services-subtitle {
-  max-width: 650px;
-  margin: 0 auto 40px;
-  font-size: 15px;
-  color: #555;
-  line-height: 1.5;
+  background-color: var(--Card-bg);
 }
 
 .services-grid {
@@ -44,7 +18,7 @@
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: 0.3s ease;
-  background: #fff;
+  background: white;
   text-align: left;
 }
 
@@ -57,7 +31,7 @@
   width: 50px;
   height: 50px;
   margin-bottom: 15px;
-  background-color: #fff;
+  background-color: var(--Card-bg);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -78,12 +52,12 @@
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #111;
+  color: var(--Primary);
 }
 
 .service-description {
   font-size: 14px;
-  color: #555;
+  color: var(--Secondary);
   min-height: 40px;
   margin-bottom: 10px;
 }
@@ -95,7 +69,7 @@
   border: none;
   font-weight: 600;
   font-size: 14px;
-  color: #f81ce5;
+  color: var(--Accent);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -104,7 +78,7 @@
 }
 
 .readmore-btn:hover {
-  color: #db1cce;
+  color: var(--Accent-hover);
 }
 
 .form-row {
@@ -115,35 +89,28 @@
 }
 
 .form-row .form-group {
-  flex: 1 1 200px; /* Makes them responsive */
+  flex: 1 1 200px;
   min-width: 200px;
 }
 
-/* Color Themes */
+/* Themed Backgrounds */
 .bg-blue { background-color: #eff6ff; }
 .bg-pink { background-color: #fce7f3; }
 .bg-green { background-color: #d1fae5; }
 
-.icon-blue { color: #3b82f6; font-size: 24px; }
+.icon-blue { color: var(--Accent); font-size: 24px; }
 .icon-pink { color: #ec4899; font-size: 24px; }
 .icon-green { color: #10b981; font-size: 24px; }
 
 /* CTA Button */
-.hire-btn {
+.service-btn {
   margin-top: 40px;
   padding: 12px 30px;
-  background-color: #111;
-  color: #fff;
-  border: none;
-  border-radius: 30px;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+ 
 }
 
 .hire-btn:hover {
-  background-color: #333;
+  background-color: var(--Secondary);
 }
 
 /* Modal Backdrop */
@@ -160,13 +127,14 @@
   justify-content: center;
   z-index: 1000;
 }
+
 body.modal-open {
   overflow: hidden;
 }
 
 /* Modal Container */
 .modal-content {
-  background: #ffffff;
+  background: var(--Card-bg);
   padding: 30px 25px;
   border-radius: 15px;
   width: 90%;
@@ -188,12 +156,12 @@ body.modal-open {
   background: none;
   border: none;
   cursor: pointer;
-  color: #555;
+  color: var(--Secondary);
   transition: color 0.3s ease;
 }
 
 .modal-close:hover {
-  color: #000;
+  color: var(--Primary);
 }
 
 /* Icon on Top */
@@ -201,7 +169,7 @@ body.modal-open {
   width: 60px;
   height: 60px;
   margin: 0 auto 15px;
-  background-color: #ffffff;
+  background-color: var(--Card-bg);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -215,14 +183,14 @@ body.modal-open {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #111;
+  color: var(--Primary);
 }
 
 /* Modal Intro Paragraph */
 .modal-intro {
   margin-top: 10px;
   font-size: 15px;
-  color: #444;
+  color: var(--Secondary);
   line-height: 1.5;
 }
 
@@ -246,7 +214,7 @@ body.modal-open {
   gap: 10px;
   font-size: 14px;
   font-weight: 500;
-  color: #333;
+  color: var(--Secondary);
   box-shadow: 0 4px 8px rgba(0,0,0,0.06);
   transition: transform 0.2s ease;
 }
@@ -261,12 +229,12 @@ body.modal-open {
   flex-shrink: 0;
 }
 
-/* CTA Button */
+/* Modal CTA Button */
 .modal-cta {
   display: block;
   width: 100%;
   padding: 12px 0;
-  background-color: #3b82f6;
+  background-color: var(--Accent);
   border: none;
   border-radius: 10px;
   color: white;
@@ -278,5 +246,5 @@ body.modal-open {
 }
 
 .modal-cta:hover {
-  background-color: #2563eb;
+  background-color: var(--Accent-hover);
 }

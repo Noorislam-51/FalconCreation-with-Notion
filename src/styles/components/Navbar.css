@@ -1,17 +1,27 @@
+:root {
+  --Primary: #000000;
+  --Secondary: #2C2C2C;
+  --Accent: #007BFF;
+  --Accent-hover: #0056b3;
+  --Highlight: #FFD700;
+  --Card-bg: #FAFAFA;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 30px;
-  background-color: rgba(255, 255, 255, 0.1); /* light transparent layer /
-  backdrop-filter: blur(10px); / blur effect /
-  -webkit-backdrop-filter: blur(10px); / Safari support */
-  color: white;
+  background-color: rgba(250, 250, 250, 0.15); /* semi-transparent card bg */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--Primary);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
 }
+
 .logo {
   cursor: pointer;
   display: flex;
@@ -20,20 +30,14 @@
 }
 
 .logo-img {
-  height: 40px; /* example size */
+  height: 40px;
   margin-right: 10px;
 }
 
 .logo-text {
   font-weight: bold;
-  color: white;
+  color: var(--Primary);
 }
-
-/* 
-.logo {
-  font-size: 1.5rem;
-  cursor: pointer;
-} */
 
 .nav {
   display: flex;
@@ -51,22 +55,33 @@
 .nav-link {
   background: none;
   border: none;
-  color: white;
+  color: var(--Primary);
   cursor: pointer;
   font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--Accent);
 }
 
 .search-input {
   padding: 5px 10px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid var(--Accent);
+  color: var(--Primary);
+  background-color: var(--Card-bg);
 }
 
 .hamburger {
   display: none;
   font-size: 1.5rem;
   cursor: pointer;
+  color: var(--Primary);
 }
+
+
+
 
 @media (max-width: 768px) {
   .nav {
@@ -74,7 +89,7 @@
     top: 70px;
     left: 0;
     right: 0;
-    background-color: #111;
+    background-color: var(--Primary);
     flex-direction: column;
     align-items: center;
     display: none;
@@ -90,5 +105,13 @@
 
   .search {
     display: none;
+  }
+
+  .nav-link {
+    color: var(--Card-bg);
+  }
+
+  .nav-link:hover {
+    color: var(--Highlight);
   }
 }

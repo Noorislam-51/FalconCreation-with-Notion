@@ -38,7 +38,7 @@ const Navbar = () => {
         <ul className="nav-list">
           {['Home', 'Services', 'Portfolio', 'About', 'Contact'].map((id) => (
             <li className="nav-item" key={id}>
-              <button className="nav-link text-white" onClick={() => scrollToSection(id)}>
+              <button className="nav-link " onClick={() => scrollToSection(id)}>
                 {id.toUpperCase()}
               </button>
             </li>
@@ -47,20 +47,19 @@ const Navbar = () => {
       </nav>
 
       {/* CTA Button */}
-      <button className="btn btn-success rounded-pill px-4" onClick={openModal}>
+      <button className="btn primary-btn" onClick={openModal}>
        Hire Us Today →
       </button>
 
-      {isModalOpen && (
-        <div className="modal-backdrop"
-          onClick={closeModal}>
-          <div className="modal-content"
-            onClick={(e) => e.stopPropagation()} >
-            <button className="close-btn" onClick={closeModal}>×</button>
-            <ContactModal />
-          </div>
-        </div>
-      )}
+    {isModalOpen && (
+  <div className="modal-backdrop" onClick={closeModal}>
+    <div className="modal-content" onClick={(e) => e.stopPropagation()} >
+      <button className="close-btn" onClick={closeModal}>×</button>
+      <ContactModal />
+    </div>
+  </div>
+)}
+
     </header>
 
   );

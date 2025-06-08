@@ -15,20 +15,23 @@ const Portfolio = () => {
 
   const scrollLeft = () => {
     if (sliderRef.current) {
-      sliderRef.current.scrollBy({ left: -320, behavior: 'smooth' });
+      sliderRef.current.scrollBy({ left: -350, behavior: 'smooth' });
     }
   };
 
   const scrollRight = () => {
     if (sliderRef.current) {
-      sliderRef.current.scrollBy({ left: 320, behavior: 'smooth' });
+      sliderRef.current.scrollBy({ left: 350, behavior: 'smooth' });
     }
   };
 
   return (
     <section className="portfolio-section" id="Portfolio">
-      <h2 className="portfolio-heading">My Portfolio</h2>
-      <p className="portfolio-subheading">Projects that speak for themselves</p>
+      <span className="label">Portfolio</span>
+      <h2 className="portfolio-heading">Featured Work</h2>
+      <p className="portfolio-subheading">
+        Creating meaningful, user-focused solutions that inspire, innovate, and exceed expectations.
+      </p>
 
       <div className="portfolio-menu">
         {categories.map(cat => (
@@ -46,23 +49,20 @@ const Portfolio = () => {
         <button className="slider-arrow left" onClick={scrollLeft} aria-label="Scroll Left">&#10094;</button>
 
         <div className="portfolio-slider" ref={sliderRef}>
-          {filteredData.map(item => (
-            <div key={item.id} className="portfolio-card">
-              <div className="media-wrapper">
-                {item.mediaType === "image" ? (
+          {filteredData
+            .filter(item => item.mediaType === "image")
+            .map(item => (
+              <div
+                key={item.id}
+                className="portfolio-card"
+                onClick={() => setModalData(item)}
+              >
+                <div className="media-wrapper banner-style">
                   <img src={item.media} alt={item.title} />
-                ) : (
-                  <video src={item.media} controls />
-                )}
+                  <p className="freelancer-overlay">By {item.freelancer}</p>
+                </div>
               </div>
-              <div className="card-bottom">
-                <button className="project-button" onClick={() => setModalData(item)}>
-                  Preview
-                </button>
-                <p className="freelancer-name">By {item.freelancer}</p>
-              </div>
-            </div>
-          ))}
+            ))}
         </div>
 
         <button className="slider-arrow right" onClick={scrollRight} aria-label="Scroll Right">&#10095;</button>
@@ -76,11 +76,7 @@ const Portfolio = () => {
             <p><strong>Type:</strong> {modalData.type}</p>
             <p><strong>Subtype:</strong> {modalData.subtype}</p>
             <div className="modal-media">
-              {modalData.mediaType === "image" ? (
-                <img src={modalData.media} alt={modalData.title} />
-              ) : (
-                <video src={modalData.media} controls />
-              )}
+              <img src={modalData.media} alt={modalData.title} />
             </div>
             <p className="freelancer-name">By {modalData.freelancer}</p>
           </div>

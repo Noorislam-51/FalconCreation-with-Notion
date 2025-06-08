@@ -1,0 +1,66 @@
+  :root {
+    --Primary: #000000;
+    --Secondary: #2C2C2C;
+    --Accent: #007BFF;
+    --Accent-hover: #0056b3;
+    --Highlight: #FFD700;
+    --Card-bg: #FAFAFA;
+  }
+
+/* Updated styles */
+
+.label {
+  display: inline-block;
+  background-color: var(--Highlight);
+  color: var(--Primary);
+  font-weight: bold;
+  padding: 5px 14px;
+  font-size: 13px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--Primary);
+}
+
+.subtitle {
+  max-width: 650px;
+  margin: 0 auto 40px;
+  font-size: 15px;
+  color: var(--Secondary);
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+  border: none;
+}
+
+.primary-btn {
+  background-color: var(--Accent);
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: var(--Accent-hover);
+  color: white;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background-color: white;
+  color: var(--Primary);
+}

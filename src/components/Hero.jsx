@@ -6,6 +6,8 @@ import ContactModal from './ContactModal';
 import { FaInstagram, FaLinkedin, FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Hero = () => {
+  
+
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const scrollToSection = (id) => {
@@ -57,6 +59,7 @@ const Hero = () => {
 
 
       </section>
+      
 
       {isModalOpen && (
         <div className="modal-backdrop"
@@ -67,7 +70,9 @@ const Hero = () => {
             <ContactModal />
           </div>
         </div>
+
       )}
+      
     </>
   );
 };

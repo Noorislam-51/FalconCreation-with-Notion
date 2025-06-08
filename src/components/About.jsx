@@ -8,29 +8,12 @@ const About = () => {
 
         {/* Visual/Illustration Section */}
         <div className="agency-visuals">
-          <div className="decor-leaf leaf-top-left"></div>
-          <div className="decor-leaf leaf-top-right"></div>
-          <div className="decor-leaf leaf-bottom-left"></div>
-
-          <div className="agency-illustration">
-            <div className="illustration-base">
-              <div className="illustration-head"></div>
-              <div className="illustration-body"></div>
-              <div className="service-basket">
-                <div className="service-items"></div>
-              </div>
-            </div>
-
-            <div className="experience-badge">
-              <div className="experience-years">25</div>
-              <div className="experience-label">YEARS OF SERVICE</div>
-            </div>
-          </div>
+         <img src='https://plus.unsplash.com/premium_vector-1682310918818-6e9a96a3ca2e?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'></img>
         </div>
 
         {/* Content Section */}
         <div className="agency-content">
-          <div className="section-label">About Us </div>
+          <div className="label">About Us </div>
 
           <h1 className="agency-heading">
             More Than Just Services<span className="highlight-text"> — We Craft Digital Stories.</span>
@@ -79,17 +62,10 @@ const About = () => {
 
           {/* Call to Action & Stats */}
           <div className="cta-stats">
-            <button className="btn-more-info">More About Us</button>
+            <button className="btn primary-btn" >More About Us</button>
 
-            <div className="stats-info">
-              <div className="stats-icon">
-                <div className="icon-emoji">👥</div>
-              </div>
-              <div className="stats-text">
-                <div className="stats-number">1495+</div>
-                <div className="stats-label">Happy Customers</div>
-              </div>
-            </div>
+           
+          
           </div>
         </div>
 
