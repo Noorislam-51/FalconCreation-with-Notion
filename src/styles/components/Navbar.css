@@ -7,6 +7,7 @@
   --Card-bg: #FAFAFA;
 }
 
+/* Navbar styles */
 .navbar {
   display: flex;
   align-items: center;
@@ -55,6 +56,7 @@
 .nav-link {
   background: none;
   border: none;
+  font-weight: 600;
   color: var(--Primary);
   cursor: pointer;
   font-size: 1rem;
@@ -80,9 +82,7 @@
   color: var(--Primary);
 }
 
-
-
-
+/* Responsive Navbar */
 @media (max-width: 768px) {
   .nav {
     position: absolute;
@@ -114,4 +114,47 @@
   .nav-link:hover {
     color: var(--Highlight);
   }
+}
+
+/* Modal styles */
+.modal-backdrop {
+  position: fixed;
+  inset: 0; /* top:0; right:0; bottom:0; left:0 */
+  background: rgba(44, 44, 44, 0.85); /* --Secondary with opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  position: relative;
+  background: var(--Card-bg);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  height: 90vh;
+  overflow-y: auto;
+  padding: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--Secondary);
+  cursor: pointer;
+  user-select: none;
+  background: transparent;
+  border: none;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: var(--Accent);
 }

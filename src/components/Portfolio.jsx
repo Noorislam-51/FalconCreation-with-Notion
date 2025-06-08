@@ -49,20 +49,52 @@ const Portfolio = () => {
         <button className="slider-arrow left" onClick={scrollLeft} aria-label="Scroll Left">&#10094;</button>
 
         <div className="portfolio-slider" ref={sliderRef}>
-          {filteredData
-            .filter(item => item.mediaType === "image")
-            .map(item => (
-              <div
-                key={item.id}
-                className="portfolio-card"
-                onClick={() => setModalData(item)}
-              >
-                <div className="media-wrapper banner-style">
+          {filteredData.map(item => (
+            <div
+              key={item.id}
+              className="portfolio-card"
+              onClick={() => setModalData(item)}
+            >
+              <div className="media-wrapper banner-style" style={{ position: 'relative' }}>
+                {item.mediaType === "image" ? (
                   <img src={item.media} alt={item.title} />
-                  <p className="freelancer-overlay">By {item.freelancer}</p>
-                </div>
+                ) : item.mediaType === "video" ? (
+                  <>
+                    <img
+                      src={item.thumbnail || 'fallback-thumbnail.jpg'}
+                      alt={`${item.title} thumbnail`}
+                      style={{ cursor: 'pointer' }}
+                    />
+                    {/* Video play icon overlay */}
+                    <div
+                      style={{
+                        position: 'absolute',
+                        top: '50%',
+                        left: '50%',
+                        transform: 'translate(-50%, -50%)',
+                        pointerEvents: 'none',
+                        width: '60px',
+                        height: '60px',
+                        backgroundColor: 'rgba(0, 0, 0, 0.5)', // semi-transparent dark circle
+                        borderRadius: '50%',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        color: 'white',
+                        fontSize: '2.5rem',
+                        boxShadow: '0 0 8px rgba(0, 0, 0, 0.7)',
+                        userSelect: 'none',
+                      }}
+                      aria-hidden="true"
+                    >
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </>
+                ) : null}
+                <p className="freelancer-overlay">By {item.freelancer}</p>
               </div>
-            ))}
+            </div>
+          ))}
         </div>
 
         <button className="slider-arrow right" onClick={scrollRight} aria-label="Scroll Right">&#10095;</button>
@@ -73,10 +105,19 @@ const Portfolio = () => {
           <div className="modal-content" onClick={e => e.stopPropagation()}>
             <span className="close-button" onClick={() => setModalData(null)}>&times;</span>
             <h3>{modalData.title}</h3>
-            <p><strong>Type:</strong> {modalData.type}</p>
-            <p><strong>Subtype:</strong> {modalData.subtype}</p>
+            {/* <p><strong>Type:</strong> {modalData.type}</p> */}
+            {/* <p><strong>Subtype:</strong> {modalData.subtype}</p> */}
             <div className="modal-media">
-              <img src={modalData.media} alt={modalData.title} />
+              {modalData.mediaType === "image" ? (
+                <img src={modalData.media} alt={modalData.title} />
+              ) : modalData.mediaType === "video" ? (
+                <video
+                  src={modalData.media}
+                  controls
+                  autoPlay
+                  style={{ maxWidth: '100%', height: 'auto' }}
+                />
+              ) : null}
             </div>
             <p className="freelancer-name">By {modalData.freelancer}</p>
           </div>

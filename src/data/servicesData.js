@@ -1,28 +1,5 @@
 const servicesData = [
-  {
-    id: 1,
-    title: "Web Development",
-    description: "Craft responsive, scalable websites.",
-    iconClass: "fa-solid fa-code",
-    avatar: "https://img.icons8.com/ios-filled/100/000000/developer.png",
-    bgClass: "bg-blue",
-    colorClass: "icon-blue",
-    modal: {
-      title: "Web Development Services",
-      intro: "We build responsive, fast, and scalable websites that meet your business goals.",
-      services: [
-        "WordPress Development (Custom + SEO-friendly)",
-        "Frontend Development (HTML CSS JavaScript & React)",
-        "Backend Development (PHP Node.js)",
-        "Full Stack Development",
-        "Elementor Page Design",
-        "Webflow (No Code)",
-        "Shopify / E-commerce Setup",
-        "Website Maintenance & Bug Fixes"
-      ],
-      cta: "Get a Quote"
-    }
-  },
+ 
   {
     id: 2,
     title: "Graphic Design",
@@ -69,7 +46,30 @@ const servicesData = [
       ],
       cta: "Book an Editor"
     }
-  }
-];
+  },
+   {
+    id: 1,
+    title: "Web Development",
+    description: "Craft responsive, scalable websites.",
+    iconClass: "fa-solid fa-code",
+    avatar: "https://img.icons8.com/ios-filled/100/000000/developer.png",
+    bgClass: "bg-blue",
+    colorClass: "icon-blue",
+    modal: {
+      title: "Web Development Services",
+      intro: "We build responsive, fast, and scalable websites that meet your business goals.",
+      services: [
+        "WordPress Development (Custom + SEO-friendly)",
+        "Frontend Development (HTML CSS JavaScript & React)",
+        "Backend Development (PHP Node.js)",
+        "Full Stack Development",
+        "Elementor Page Design",
+        "Webflow (No Code)",
+        "Shopify / E-commerce Setup",
+        "Website Maintenance & Bug Fixes"
+      ],
+      cta: "Get a Quote"
+    }
+  }];
 
 export default servicesData;

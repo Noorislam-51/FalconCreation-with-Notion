@@ -89,6 +89,7 @@
   }
 
   .social-links {
+    align-items: center;
     display: flex;
     justify-content: center;
     gap: 15px;

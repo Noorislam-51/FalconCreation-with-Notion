@@ -31,27 +31,38 @@
   color: #666;
 }
 
+
+/* Portfolio Menu (Category Buttons) */
 .portfolio-menu {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .menu-button {
-  background-color: transparent;
-  border: 2px solid var(--Secondary);
-  color: var(--Secondary);
   padding: 10px 20px;
-  margin: 0 8px 10px;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 50px;
   font-size: 1rem;
   cursor: pointer;
-  transition: 0.3s;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #444;
+  font-weight: 600;
 }
 
-.menu-button.active,
 .menu-button:hover {
-  background-color: var(--Secondary);
-  color: #fff;
+  background-color: #007bff;
+  color: white;
 }
 
+.menu-button.active {
+  background-color: #007bff;
+  color: white;
+}
 /* Slider */
 .slider-container {
   position: relative;
@@ -165,61 +176,71 @@
   border-radius: 4px;
 }
 
-/* Modal Styles */
 .portfolio-modal {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  background: rgba(44, 44, 44, 0.85); /* --Secondary with opacity */
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 9999;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.modal-content {
-  background: #fff;
-  padding: 25px;
-  width: 90%;
-  max-width: 600px;
-  border-radius: 8px;
+.portfolio-modal .modal-content {
   position: relative;
-  text-align: left;
-  max-height: 90vh;
-  overflow-y: auto;
+  background: var(--Primary); /* black background */
+  border-radius: 8px;
+  width: 100%;
+  max-width: 80vw;
+  max-height: 80vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
 }
 
-.modal-content h3 {
-  margin-top: 0;
+.portfolio-modal .modal-content h3,
+.modal-content p,
+.freelancer-name {
+  display: none; /* hide text for full media view, remove if you want text */
 }
 
-.modal-media img,
+.portfolio-modal .modal-media img,
 .modal-media video {
   width: 100%;
-  max-height: 400px;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%; 
   object-fit: contain;
-  margin-top: 15px;
-  border-radius: 5px;
-}
-
-.freelancer-name {
-  font-size: 0.85rem;
-  color: #777;
-  margin-top: 8px;
+  border-radius: 8px;
+  display: block;
 }
 
 .close-button {
   position: absolute;
-  right: 15px;
   top: 10px;
-  font-size: 26px;
+  right: 15px;
+  font-size: 28px;
   font-weight: bold;
+  color: var(--Highlight); /* gold/yellow for close button */
   cursor: pointer;
-  color: var(--Secondary);
   user-select: none;
+  z-index: 10;
+  transition: color 0.3s ease;
 }
+
+.close-button:hover {
+  color: var(--Accent); /* blue on hover */
+}
+
+
 
 /* Responsive */
 @media (max-width: 1024px) {

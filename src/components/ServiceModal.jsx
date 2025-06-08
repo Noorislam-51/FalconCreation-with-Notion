@@ -27,8 +27,6 @@ const ServiceModal = ({ service, onClose }) => {
         ))}
       </div>
 
-      {/* CTA */}
-      <button className="modal-cta" onClick={onClose}>{cta}</button>
     </>
   );
 };

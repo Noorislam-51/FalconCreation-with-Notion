@@ -29,8 +29,8 @@ const ContactForm = () => {
               <div className="contact-item">
                 <div className="contact-icon">📞</div>
                 <div className="contact-text">
-                  <div>+8801778771986</div>
-                  <div>+9987659396</div>
+                  <div>+91 9266863816</div>
+                  <div>+91 8882900470</div>
                 </div>
               </div>
 
@@ -44,7 +44,7 @@ const ContactForm = () => {
               <div className="contact-item">
                 <div className="contact-icon">📍</div>
                 <div className="contact-text">
-                  New York, USA
+                 Noida, India
                 </div>
               </div>
             </div>

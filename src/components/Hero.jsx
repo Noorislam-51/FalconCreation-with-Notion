@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="hero-wrapper">
           <div className="hero-text">
             <h1 className="hero-title">
-              FalconCreation — <br />Where Creativity Takes Flight
+              FalconCreation<span>  — <br />Where Creativity Takes Flight</span>
             </h1>
             <p className="hero-subtext">
               Your One-Stop Solution for Digital Creativity & Development — expert websites,

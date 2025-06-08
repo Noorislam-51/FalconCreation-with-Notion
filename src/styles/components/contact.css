@@ -255,9 +255,9 @@
 
 .form-textarea {
   resize: vertical;
-  min-height: 80px;
+  min-height: 40px;
   font-family: inherit;
-  border-radius: 8px;
+  border-radius: 35px;
 }
 
 .form-textarea::placeholder {
