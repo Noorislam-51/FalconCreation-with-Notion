@@ -6,21 +6,33 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
-import AboutPage from './components/About'
-
-
-function App() {
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import AboutPage from './pages/AboutPage'
+import PortfolioPage from './pages/PortfolioPage'
+function HomePage() {
   return (
     <>
-
+    
       <Hero />
       <Services />
-      <Portfolio /> 
+      <Portfolio />
       <About />
       <Contact />
       <Footer />
     </>
   );
 }
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+      </Routes>
+    </Router>
+  );
+}
+
 
 export default App;

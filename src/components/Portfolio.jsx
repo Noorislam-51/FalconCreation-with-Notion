@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import portfolioData from '../data/portfolioData';
 import '../styles/components/portfolio.css';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   const [category, setCategory] = useState("All");
@@ -98,7 +99,12 @@ const Portfolio = () => {
         </div>
 
         <button className="slider-arrow right" onClick={scrollRight} aria-label="Scroll Right">&#10095;</button>
+
       </div>
+      {/* CTA Button */}
+       <Link to="/portfolio" >
+        <button className="btn primary-btn text-white">View More Projects</button>
+      </Link>
 
       {modalData && (
         <div className="portfolio-modal" onClick={() => setModalData(null)}>

@@ -16,7 +16,7 @@ const servicesData = [
         "YouTube Thumbnails",
         "Posters & Banners",
         "Business Cards",
-        "UI & UX Design",
+        // "UI & UX Design",
         "Website Design",
         "Social Media Posts & Ads"
       ],
@@ -40,9 +40,9 @@ const servicesData = [
         "Product Demos & Unboxings",
         "Promo & Advertisement Videos",
         "Vlog Editing",
-        "Corporate / Business Videos",
+        // "Corporate / Business Videos",
         "Travel / Montage Videos",
-        "Short-Form Vertical Videos (TikTok, Shorts, Reels)"
+        // "Short-Form Vertical Videos (TikTok, Shorts, Reels)"
       ],
       cta: "Book an Editor"
     }
@@ -59,9 +59,9 @@ const servicesData = [
       title: "Web Development Services",
       intro: "We build responsive, fast, and scalable websites that meet your business goals.",
       services: [
-        "WordPress Development (Custom + SEO-friendly)",
-        "Frontend Development (HTML CSS JavaScript & React)",
-        "Backend Development (PHP Node.js)",
+        "WordPress Development",
+        "Frontend Development",
+        "Backend Development",
         "Full Stack Development",
         "Elementor Page Design",
         "Webflow (No Code)",
