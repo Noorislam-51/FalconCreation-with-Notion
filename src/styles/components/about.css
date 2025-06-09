@@ -1,6 +1,5 @@
 /* Reset and Base Styles */
 
-
 .agency-container {
   font-family: 'Arial', sans-serif;
   background-color: var(--Card-bg);
@@ -123,6 +122,7 @@
   line-height: 1.4;
   margin: 0;
 }
+
 .who-we-serve {
   margin-top: 60px;
   text-align: center;
@@ -183,33 +183,145 @@
   color: var(--Secondary, #555);
   line-height: 1.5;
 }
-.who-we-serve {
-  margin-top: 60px;
-  /* padding: 0 20px; */
-  text-align: left;
-  /* max-width: 1200px; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-}
-
-
-
-
-
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .agency-main {
     flex-direction: column;
     gap: 40px;
   }
 
-  .agency-heading {
-    font-size: 36px;
+  .agency-visuals, .agency-content {
+    max-width: 100%;
+    padding: 0;
   }
 
-  .agency-illustration {
-    width: 300px;
-    height: 350px;
+  .agency-heading {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .agency-container {
+    padding: 30px 15px;
+  }
+  .agency-content{
+    margin: 10px;
+  }
+  .agency-heading {
+    font-size: 28px;
+  }
+
+  .mission-title,
+  .serve-heading {
+    font-size: 24px;
+  }
+
+  .serve-cards {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+}
+
+/* Devices up to 480px wide (e.g., iPhone 12 Pro) */
+@media (max-width: 480px) {
+  .agency-heading {
+    font-size: 28px;
+  }
+
+  .agency-description,
+  .serve-intro,
+  .value-description,
+  .serve-description {
+    font-size: 13px;
+  }
+
+  .mission-title,
+  .serve-heading {
+    font-size: 22px;
+  }
+
+  .value-name,
+  .serve-title {
+    font-size: 14px;
+  }
+
+  .section-label {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .agency-main {
+    padding: 10px;
+    gap: 30px;
+  }
+
+  .agency-visuals {
+    padding: 10px;
+  }
+
+  .agency-content {
+    padding-left: 0;
+  }
+
+  .value-card {
+    gap: 8px;
+  }
+
+  .value-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .icon-emoji {
+    font-size: 14px;
+  }
+
+  .serve-cards {
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  .serve-card {
+    padding: 15px;
+  }
+
+  .btn.primary-btn {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
+
+/* Extra tight tweaks for narrower phones (like 390px and below) */
+@media (max-width: 390px) {
+  .agency-heading {
+    font-size: 24px;
+  }
+
+  .mission-title,
+  .serve-heading {
+    font-size: 20px;
+  }
+
+  .agency-description,
+  .serve-description,
+  .value-description {
+    font-size: 12px;
+  }
+
+  .value-name,
+  .serve-title {
+    font-size: 13px;
+  }
+
+  .section-label {
+    font-size: 11px;
+  }
+
+  .serve-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .btn.primary-btn {
+    width: 100%;
   }
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/components/navbar.css'; 
+import '../styles/components/navbar.css';
 import ContactModal from './ContactModal';
 // import Logo from '../assets/logos/Logo.png'
 
@@ -34,6 +34,7 @@ const Navbar = () => {
       </div>
 
 
+      
       <nav className={`nav ${menuOpen ? 'active' : ''}`}>
         <ul className="nav-list">
           {['Home', 'Services', 'Portfolio', 'About', 'Contact'].map((id) => (
@@ -47,18 +48,18 @@ const Navbar = () => {
       </nav>
 
       {/* CTA Button */}
-      <button className="btn primary-btn" onClick={openModal}>
-       Hire Us Today →
+      <button className="btn primary-btn btn-for-small" onClick={openModal}>
+        Hire Us Today →
       </button>
-
-    {isModalOpen && (
-  <div className="modal-backdrop" onClick={closeModal}>
-    <div className="modal-content" onClick={(e) => e.stopPropagation()} >
-      <button className="close-btn" onClick={closeModal}>×</button>
-      <ContactModal />
-    </div>
-  </div>
-)}
+          <button className="hamburger" onClick={toggleMenu}>☰</button>
+      {isModalOpen && (
+        <div className="modal-backdrop" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()} >
+            <button className="close-btn" onClick={closeModal}>×</button>
+            <ContactModal />
+          </div>
+        </div>
+      )}
 
     </header>
 
