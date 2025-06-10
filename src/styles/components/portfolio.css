@@ -196,22 +196,20 @@
   }
 
   .portfolio-modal .modal-content {
-    position: relative;
-    background: var(--Primary);
-    /* black background */
-    border-radius: 8px;
-    width: auto;
-    height: auto;
-    /* width: 100%; */
-    /* max-width: 80vw; */
-    /* max-height: 80vh; */
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-  }
+  position: relative;
+  background: var(--Primary);
+  border-radius: 8px;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
 
   .portfolio-modal .modal-content h3,
   .modal-content p,
@@ -220,16 +218,14 @@
     /* hide text for full media view, remove if you want text */
   }
 
-  .portfolio-modal .modal-media img,
-  .modal-media video {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    border-radius: 8px;
-    display: block;
-  }
+.portfolio-modal .modal-media img,
+.modal-media video {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+}
 
   .close-button {
     position: absolute;

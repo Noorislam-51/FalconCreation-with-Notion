@@ -93,12 +93,18 @@ const Portfolio = () => {
             >
               <div className="media-wrapper banner-style" style={{ position: 'relative' }}>
                 {item.mediaType === "image" ? (
-                  <img src={item.media} alt={item.title} referrerPolicy="no-referrer" />
+                  <img
+                    src={item.media}
+                    alt={item.title}
+                    loading="lazy"
+                    referrerPolicy="no-referrer"
+                  />
                 ) : item.mediaType === "video" ? (
                   <>
                     <img
                       src={item.thumbnail || 'fallback-thumbnail.jpg'}
                       alt={`${item.title} thumbnail`}
+                      loading="lazy"
                       style={{ cursor: 'pointer' }}
                     />
                     <div
@@ -153,12 +159,13 @@ const Portfolio = () => {
             <span className="close-button" onClick={() => setModalData(null)}>&times;</span>
             <div className="modal-media">
               {modalData.mediaType === "image" ? (
-                <img src={modalData.media} alt={modalData.title} />
+                <img src={modalData.media} alt={modalData.title} loading="lazy" />
               ) : modalData.mediaType === "video" ? (
                 <video
                   src={modalData.media}
                   controls
                   autoPlay
+                  preload="none"
                   style={{ maxWidth: '100%', maxHeight: '100%' }}
                 />
               ) : null}
