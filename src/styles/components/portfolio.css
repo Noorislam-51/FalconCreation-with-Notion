@@ -1,272 +1,282 @@
-:root {
-  --Primary: #000000;
-  --Secondary: #2C2C2C;
-  --Accent: #007BFF;
-  --Accent-hover: #0056b3;
-  --Highlight: #FFD700;
-  --Card-bg: #FAFAFA;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.portfolio-section {
-  padding: 60px 30px;
-  background: var(--Card-bg);
-  text-align: center;
-}
-
-.portfolio-heading {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: var(--Primary);
-}
-
-.portfolio-subheading {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-  color: #666;
-}
-
-
-/* Portfolio Menu (Category Buttons) */
-.portfolio-menu {
-  margin-bottom: 25px;
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.menu-button {
-  padding: 10px 20px;
-  background: #e0e0e0;
-  border: none;
-  border-radius: 50px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  color: #444;
-  font-weight: 600;
-}
-
-.menu-button:hover {
-  background-color: #007bff;
-  color: white;
-}
-
-.menu-button.active {
-  background-color: #007bff;
-  color: white;
-}
-/* Slider */
-.slider-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.slider-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: var(--Secondary);
-  color: white;
-  border: none;
-  font-size: 24px;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 10;
-  transition: background 0.2s;
-  user-select: none;
-}
-
-.slider-arrow.left {
-  left: 0;
-}
-
-.slider-arrow.right {
-  right: 0;
-}
-
-.slider-arrow:hover {
-  background: var(--Primary);
-}
-
-.portfolio-slider {
-  display: flex;
-  /* Remove wrapping */
-  flex-wrap: nowrap;  /* Changed from wrap to nowrap */
-  gap: 20px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  padding: 20px 0;
-  width: 90%;
-  max-height: 250px; /* adjust height to card height + padding */
-  scrollbar-width: none;
-}
-
-
-
-.portfolio-slider::-webkit-scrollbar {
-  display: none;
-}
-
-
-
-
-
-
-
-/* Card Style */
-.portfolio-card {
-  background: #fff;
-  flex: 0 0 auto;
-  /* Important: don't shrink or grow, fixed width */
-  width: 300px;
-  /* fixed width for horizontal scrolling */
-  height: 200px;
-  /* increased height for better view */
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.portfolio-card:hover {
-  transform: scale(1.02);
-}
-
-.media-wrapper.banner-style img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.media-wrapper.banner-style {
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
-
-
-.freelancer-overlay {
-  position: absolute;
-  bottom: 10px;
-  left: 15px;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 5px 10px;
-  font-size: 0.9rem;
-  border-radius: 4px;
-}
-
-.portfolio-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(44, 44, 44, 0.85); /* --Secondary with opacity */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.portfolio-modal .modal-content {
-  position: relative;
-  background: var(--Primary); /* black background */
-  border-radius: 8px;
-  width: 100%;
-  max-width: 80vw;
-  max-height: 80vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0;
-}
-
-.portfolio-modal .modal-content h3,
-.modal-content p,
-.freelancer-name {
-  display: none; /* hide text for full media view, remove if you want text */
-}
-
-.portfolio-modal .modal-media img,
-.modal-media video {
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  max-height: 100%; 
-  object-fit: contain;
-  border-radius: 8px;
-  display: block;
-}
-
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 28px;
-  font-weight: bold;
-  color: var(--Highlight); /* gold/yellow for close button */
-  cursor: pointer;
-  user-select: none;
-  z-index: 10;
-  transition: color 0.3s ease;
-}
-
-.close-button:hover {
-  color: var(--Accent); /* blue on hover */
-}
-
-
-
-/* Responsive */
-@media (max-width: 1024px) {
-  .portfolio-card {
-    width: 100%;
-    aspect-ratio: 3 / 1.2;
+  :root {
+    --Primary: #000000;
+    --Secondary: #2C2C2C;
+    --Accent: #007BFF;
+    --Accent-hover: #0056b3;
+    --Highlight: #FFD700;
+    --Card-bg: #FAFAFA;
   }
-}
 
-@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .portfolio-section {
+    padding: 60px 30px;
+    background: var(--Card-bg);
+    text-align: center;
+  }
+
+  .portfolio-heading {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: var(--Primary);
+  }
+
+  .portfolio-subheading {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+  }
+
+
+  /* Portfolio Menu (Category Buttons) */
+  .portfolio-menu {
+    margin-bottom: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
   .menu-button {
-    font-size: 0.85rem;
-    padding: 8px 16px;
+    padding: 10px 20px;
+    background: #e0e0e0;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #444;
+    font-weight: 600;
   }
 
-  .portfolio-slider {
-    width: 100%;
+  .menu-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .menu-button.active {
+    background-color: #007bff;
+    color: white;
+  }
+
+  /* Slider */
+  .slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .slider-arrow {
-    padding: 8px;
-    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--Secondary);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.2s;
+    user-select: none;
   }
 
-  .portfolio-card {
-    width: 100%;
-    aspect-ratio: 3 / 1.5;
+  .slider-arrow.left {
+    left: 0;
   }
-}
+
+  .slider-arrow.right {
+    right: 0;
+  }
+
+  .slider-arrow:hover {
+    background: var(--Primary);
+  }
+
+  .portfolio-slider {
+    display: flex;
+    /* Remove wrapping */
+    flex-wrap: nowrap;
+    /* Changed from wrap to nowrap */
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+    width: 90%;
+    max-height: 250px;
+    /* adjust height to card height + padding */
+    scrollbar-width: none;
+  }
+
+
+
+  .portfolio-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+
+
+
+
+  /* Card Style */
+  .portfolio-card {
+    background: #fff;
+    flex: 0 0 auto;
+    /* Important: don't shrink or grow, fixed width */
+    width: 300px;
+    /* fixed width for horizontal scrolling */
+    height: 200px;
+    /* increased height for better view */
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .portfolio-card:hover {
+    transform: scale(1.02);
+  }
+
+  .media-wrapper.banner-style img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .media-wrapper.banner-style {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+
+
+  .freelancer-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+  }
+
+  .portfolio-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(44, 44, 44, 0.85);
+    /* --Secondary with opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .portfolio-modal .modal-content {
+    position: relative;
+    background: var(--Primary);
+    /* black background */
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    /* width: 100%; */
+    /* max-width: 80vw; */
+    /* max-height: 80vh; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .portfolio-modal .modal-content h3,
+  .modal-content p,
+  .freelancer-name {
+    display: none;
+    /* hide text for full media view, remove if you want text */
+  }
+
+  .portfolio-modal .modal-media img,
+  .modal-media video {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    display: block;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--Highlight);
+    /* gold/yellow for close button */
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    transition: color 0.3s ease;
+  }
+
+  .close-button:hover {
+    color: var(--Accent);
+    /* blue on hover */
+  }
+
+
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .portfolio-card {
+      width: 100%;
+      aspect-ratio: 3 / 1.2;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .menu-button {
+      font-size: 0.85rem;
+      padding: 8px 16px;
+    }
+
+    .portfolio-slider {
+      width: 100%;
+    }
+
+    .slider-arrow {
+      padding: 8px;
+      font-size: 20px;
+    }
+
+    .portfolio-card {
+      width: 100%;
+      aspect-ratio: 3 / 1.5;
+    }
+  }
