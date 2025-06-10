@@ -108,7 +108,7 @@
 }
 
 .info-subtitle {
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   line-height: 1.5;
   opacity: 0.85;
   margin-bottom: 30px;
@@ -213,7 +213,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 16px;
-  margin-bottom: 20px;
+  margin: 20px 0px;
 }
 
 .form-group {
@@ -223,7 +223,6 @@
 }
 
 .form-group label {
-  font-size: 0.85rem;
   font-weight: 600;
   color: var(--Primary);
 }
@@ -327,13 +326,13 @@
   }
 }
 
-.contactHead .heading {
+/* .contactHead .heading {
     font-size: 1.3rem;
-  }
+  } */
 
-  .contactHead .subheading {
+  /* .contactHead .subheading {
     font-size: 0.75rem;
-  }
+  } */
 
   .label {
     font-size: 0.65rem;
@@ -342,10 +341,6 @@
 
   .contact-info h2 {
     font-size: 1.1rem;
-  }
-
-  .info-subtitle {
-    font-size: 0.75rem;
   }
 
   .contact-item .contact-text {
@@ -362,10 +357,6 @@
     font-size: 14px;
     width: 28px;
     height: 28px;
-  }
-
-  .form-group label {
-    font-size: 0.7rem;
   }
 
   .form-input,
@@ -403,10 +394,6 @@
     font-size: 1.1rem;
   }
 
-  .info-subtitle {
-    font-size: 0.75rem;
-  }
-
   .contact-item .contact-text {
     font-size: 0.8rem;
   }
@@ -422,11 +409,6 @@
     width: 28px;
     height: 28px;
   }
-
-  .form-group label {
-    font-size: 0.7rem;
-  }
-
   .form-input,
   .form-select,
   .form-textarea {
