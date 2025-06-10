@@ -244,9 +244,198 @@ const portfolioData = [
     media: "/portfolio/graphic/Banner & Poster/Poster (1).jpg",
     thumbnail: "/portfolio/graphic/Banner & Poster/Poster (1).jpg",
     freelancer: "Noor Islam"
-  }
+  },
 
-
+  {
+    "id": 25,
+    "title": "Make My Gift - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (1).jpg",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (1).jpg",
+    "freelancer": "Noor Islam"
+  },
+  {
+    "id": 26,
+    "title": "Destination Fashion Hub - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (1).png",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (1).png",
+    "freelancer": "Noor Islam"
+  },
+  {
+    "id": 27,
+    "title": "Go Bazaar - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (2).jpg",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (2).jpg",
+    "freelancer": "Noor Islam"
+  },
+  {
+    "id": 28,
+    "title": "Dream Clinic - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (2).png",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (2).png",
+    "freelancer": "Noor Islam"
+  },
+  {
+    "id": 29,
+    "title": "Endodontic - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (3).jpg",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (3).jpg",
+    "freelancer": "Noor Islam"
+  },
+  {
+    "id": 30,
+    "title": "Fitness Fuel Gym - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (3).png",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (3).png",
+    "freelancer": "Noor Islam"
+  },
+  {
+    "id": 31,
+    "title": "Hotel Legend - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (4).jpg",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (4).jpg",
+    "freelancer": "Noor Islam"
+  },
+  {
+    "id": 32,
+    "title": "Optic - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (5).jpg",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (5).jpg",
+    "freelancer": "Noor Islam"
+  },
+  {
+    "id": 33,
+    "title": "Padmalata Creation - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (6).jpg",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (6).jpg",
+    "freelancer": "Noor Islam"
+  },
+  {
+    "id": 34,
+    "title": "Mr.Chai Kettle - Logo Design",
+    "type": "Graphic Design",
+    "subtype": "Logo Design",
+    "mediaType": "image",
+    "media": "/portfolio/graphic/Logo/Logo (7).jpg",
+    "thumbnail": "/portfolio/graphic/Logo/Logo (7).jpg",
+    "freelancer": "Noor Islam"
+  },
+  {
+  "id": 35,
+  "title": "Beauty Center Landing Page",
+  "type": "Graphic Design",
+  "subtype": "Website Design",
+  "mediaType": "image",
+  "media": "/portfolio/graphic/Ui UX/UI&UX (1).jpg",
+  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (1).jpg",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 36,
+  "title": "E‑commerce App – User Profile Screen",
+  "type": "Graphic Design",
+  "subtype": "Website Design",
+  "mediaType": "image",
+  "media": "/portfolio/graphic/Ui UX/UI&UX (2).jpg",
+  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (2).jpg",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 37,
+  "title": "E‑commerce App – Search Categories Screen",
+  "type": "Graphic Design",
+  "subtype": "Website Design",
+  "mediaType": "image",
+  "media": "/portfolio/graphic/Ui UX/UI&UX (3).jpg",
+  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (3).jpg",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 38,
+  "title": "E‑commerce Web – Homepage Catalogue",
+  "type": "Graphic Design",
+  "subtype": "Website Design",
+  "mediaType": "image",
+  "media": "/portfolio/graphic/Ui UX/UI&UX (4).jpg",
+  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (4).jpg",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 39,
+  "title": "Mobile App – Login Screen",
+  "type": "Graphic Design",
+  "subtype": "Website Design",
+  "mediaType": "image",
+  "media": "/portfolio/graphic/Ui UX/UI&UX (5).jpg",
+  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (5).jpg",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 40,
+  "title": "Digital Agency One‑Page Layout",
+  "type": "Graphic Design",
+  "subtype": "Website Design",
+  "mediaType": "image",
+  "media": "/portfolio/graphic/Ui UX/UI&UX (6).jpg",
+  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (6).jpg",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 41,
+  "title": "Cafe Crust Website – Menu Showcase",
+  "type": "Graphic Design",
+  "subtype": "Website Design",
+  "mediaType": "image",
+  "media": "/portfolio/graphic/Ui UX/UI&UX (7).jpg",
+  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (7).jpg",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 42,
+  "title": "Cafe Crust Website – Menu Showcase",
+  "type": "Graphic Design",
+  "subtype": "Website Design",
+  "mediaType": "image",
+  "media": "/portfolio/graphic/Ui UX/UI&UX (8).jpg",
+  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (8).jpg",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 43,
+  "title": "Cafe Crust Website – Menu Showcase",
+  "type": "Graphic Design",
+  "subtype": "Website Design",
+  "mediaType": "image",
+  "media": "/portfolio/graphic/Ui UX/UI&UX (9).jpg",
+  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (9).jpg",
+  "freelancer": "Noor Islam"
+}
 
   //thumbnail-----------------------------------------------------
 ];
