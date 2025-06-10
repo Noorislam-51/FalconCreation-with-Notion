@@ -7,8 +7,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (1).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (1).png",
+    media: "https://res.cloudinary.com/dgmypxszb/image/upload/v1749567609/portfolio/graphic/Thumbnail/Thumbnail_5_kszsfp.png",
+    thumbnail: "https://res.cloudinary.com/dgmypxszb/image/upload/v1749567609/portfolio/graphic/Thumbnail/Thumbnail_5_kszsfp.png",
     freelancer: "Noor Islam"
   },
 
@@ -58,8 +58,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (3).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (3).png",
+    media: "https://res.cloudinary.com/dgmypxszb/image/upload/v1749567609/portfolio/graphic/Thumbnail/Thumbnail_3_zlldbq.jpg",
+    thumbnail: "https://res.cloudinary.com/dgmypxszb/image/upload/v1749567609/portfolio/graphic/Thumbnail/Thumbnail_3_zlldbq.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -154,7 +154,7 @@ const portfolioData = [
     thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (9).png",
     freelancer: "Noor Islam"
   },
-
+  // poster & banner ------------------------------------------------------------
   {
     id: 16,
     title: "POHA - Indian Breakfast",
@@ -246,7 +246,7 @@ const portfolioData = [
     freelancer: "Noor Islam"
   },
 
-  // Post --------------------------------------------------------------------------------------------------------------------------
+  // logo --------------------------------------------------------------------------------------------------------------------------
   {
     "id": 25,
     "title": "Make My Gift - Logo Design",
@@ -347,6 +347,7 @@ const portfolioData = [
     "thumbnail": "/portfolio/graphic/Logo/Logo (7).jpg",
     "freelancer": "Noor Islam"
   },
+  // website design ------------------------------------------------------------------------
   {
     "id": 35,
     "title": "Beauty Center Landing Page",
@@ -437,6 +438,8 @@ const portfolioData = [
     "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (9).jpg",
     "freelancer": "Noor Islam"
   },
+
+  // social media post --------------------------------------------------
   {
     id: 45,
     title: "Proton Academy NEET 2024 Toppers",
@@ -546,89 +549,87 @@ const portfolioData = [
     media: "/portfolio/graphic/SocialMedia/Post (11).jpg",
     thumbnail: "/portfolio/graphic/SocialMedia/Post (11).jpg",
     freelancer: "Noor Islam"
+  },
+  // Business card  -------------------------------------------------------------------------------------------------------------------------
+  {
+    id: 56,
+    title: "PHC - Pramukh Hallmark Center Business Card",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "/portfolio/graphic/Business Cards/Card (3).png",
+    thumbnail: "/portfolio/graphic/Business Cards/Card (3).png",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 57,
+    title: "Pioneer Education & Immigration Services Business Card",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "/portfolio/graphic/Business Cards/Card (4).png",
+    thumbnail: "/portfolio/graphic/Business Cards/Card (4).png",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 58,
+    title: "Sejal's Fashion Studio - Wedding Wear Collection Business Card",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "/portfolio/graphic/Business Cards/Card (5).png",
+    thumbnail: "/portfolio/graphic/Business Cards/Card (5).png",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 59,
+    title: "Gurukripa Exports Business Card - Partial Design",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "/portfolio/graphic/Business Cards/Card (2).jpg",
+    thumbnail: "/portfolio/graphic/Business Cards/Card (2).jpg",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 60,
+    title: "Green Hightech - The Growing Engine Business Card",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "/portfolio/graphic/Business Cards/Card (1).png",
+    thumbnail: "/portfolio/graphic/Business Cards/Card (1).png",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 61,
+    title: "Gurukripa Exports - Complete Business Card Design",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "/portfolio/graphic/Business Cards/Card (1).jpg",
+    thumbnail: "/portfolio/graphic/Business Cards/Card (1).jpg",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 62,
+    title: "Innovative Arrow - Digital Services Business Card",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "/portfolio/graphic/Business Cards/Card (2).png",
+    thumbnail: "/portfolio/graphic/Business Cards/Card (2).png",
+    freelancer: "Noor Islam"
   }
-  // Business card  --------------------------------------------------------------------------------------------------------------------------
 
 
 
-
-  //thumbnail-----------------------------------------------------
 ];
 
-export default portfolioData3
+export default portfolioData
 
 
 
 
 
 
-// {
-//   id: 56,
-//   title: "PHC - Pramukh Hallmark Center Business Card",
-//   type: "Graphic Design",
-//   subtype: "Business Cards",
-//   mediaType: "image",
-//   media: "/portfolio/graphic/Business Cards/Card (3).png",
-//   thumbnail: "/portfolio/graphic/Business Cards/Card (3).png",
-//   freelancer: "Noor Islam"
-// },
-// {
-//   id: 57,
-//   title: "Pioneer Education & Immigration Services Business Card",
-//   type: "Graphic Design",
-//   subtype: "Business Cards",
-//   mediaType: "image",
-//   media: "/portfolio/graphic/Business Cards/Card (4).png",
-//   thumbnail: "/portfolio/graphic/Business Cards/Card (4).png",
-//   freelancer: "Noor Islam"
-// },
-// {
-//   id: 58,
-//   title: "Sejal's Fashion Studio - Wedding Wear Collection Business Card",
-//   type: "Graphic Design",
-//   subtype: "Business Cards",
-//   mediaType: "image",
-//   media: "/portfolio/graphic/Business Cards/Card (5).png",
-//   thumbnail: "/portfolio/graphic/Business Cards/Card (5).png",
-//   freelancer: "Noor Islam"
-// },
-// {
-//   id: 59,
-//   title: "Gurukripa Exports Business Card - Partial Design",
-//   type: "Graphic Design",
-//   subtype: "Business Cards",
-//   mediaType: "image",
-//   media: "/portfolio/graphic/Business Cards/Card (2).jpg",
-//   thumbnail: "/portfolio/graphic/Business Cards/Card (2).jpg",
-//   freelancer: "Noor Islam"
-// },
-// {
-//   id: 60,
-//   title: "Green Hightech - The Growing Engine Business Card",
-//   type: "Graphic Design",
-//   subtype: "Business Cards",
-//   mediaType: "image",
-//   media: "/portfolio/graphic/Business Cards/Card (1).png",
-//   thumbnail: "/portfolio/graphic/Business Cards/Card (1).png",
-//   freelancer: "Noor Islam"
-// },
-// {
-//   id: 61,
-//   title: "Gurukripa Exports - Complete Business Card Design",
-//   type: "Graphic Design",
-//   subtype: "Business Cards",
-//   mediaType: "image",
-//   media: "/portfolio/graphic/Business Cards/Card (1).jpg",
-//   thumbnail: "/portfolio/graphic/Business Cards/Card (1).jpg",
-//   freelancer: "Noor Islam"
-// },
-// {
-//   id: 62,
-//   title: "Innovative Arrow - Digital Services Business Card",
-//   type: "Graphic Design",
-//   subtype: "Business Cards",
-//   mediaType: "image",
-//   media: "/portfolio/graphic/Business Cards/Card (2).png",
-//   thumbnail: "/portfolio/graphic/Business Cards/Card (2).png",
-//   freelancer: "Noor Islam"
-// }
