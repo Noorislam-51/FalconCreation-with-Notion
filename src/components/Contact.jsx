@@ -9,7 +9,7 @@ const ContactForm = () => {
       <div className="contact-wrapper">
       <div className='contactHead'>
         <span className="label">Contact</span>
-        <h2 className="heading">Get In Touch</h2>
+        <h2 className="heading contact-head">Get In Touch</h2>
         <p className="subheading">Ready to start your next project? Contact us directly through the form below or reach out via your preferred method.</p>
 
        </div>

@@ -280,3 +280,11 @@
       aspect-ratio: 3 / 1.5;
     }
   }
+}
+
+@media (max-width: 480px){
+  .portfolio-heading{
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}

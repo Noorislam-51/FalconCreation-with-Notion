@@ -174,7 +174,7 @@ const portfolioData = [
     media: "/portfolio/graphic/Banner & Poster/Poster (2).jpg",
     thumbnail: "/portfolio/graphic/Banner & Poster/Poster (2).jpg",
     freelancer: "Noor Islam"
-  },
+  },  
   {
     id: 18,
     title: "COOLZY - Underwear Product Banner",
