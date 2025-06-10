@@ -1,10 +1,12 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import portfolioData from '../data/portfolioData';
 import '../styles/components/portfolio.css';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   const [category, setCategory] = useState("All");
   const [modalData, setModalData] = useState(null);
+  const [modalSize, setModalSize] = useState({ width: '80vw', height: 'auto' });
   const sliderRef = useRef(null);
 
   const categories = ["All", "Web Dev", "Video Editing", "Graphic Design"];
@@ -24,6 +26,40 @@ const Portfolio = () => {
       sliderRef.current.scrollBy({ left: 350, behavior: 'smooth' });
     }
   };
+
+  useEffect(() => {
+    if (!modalData) return;
+
+    if (modalData.mediaType === 'image') {
+      const img = new Image();
+      img.src = modalData.media;
+      img.onload = () => {
+        let { width, height } = img;
+        const maxWidth = window.innerWidth * 0.9;
+        const maxHeight = window.innerHeight * 0.9;
+        const ratio = Math.min(maxWidth / width, maxHeight / height);
+
+        setModalSize({
+          width: `${width * ratio}px`,
+          height: `${height * ratio}px`
+        });
+      };
+    } else if (modalData.mediaType === 'video') {
+      const video = document.createElement('video');
+      video.src = modalData.media;
+      video.onloadedmetadata = () => {
+        let { videoWidth: width, videoHeight: height } = video;
+        const maxWidth = window.innerWidth * 0.9;
+        const maxHeight = window.innerHeight * 0.9;
+        const ratio = Math.min(maxWidth / width, maxHeight / height);
+
+        setModalSize({
+          width: `${width * ratio}px`,
+          height: `${height * ratio}px`
+        });
+      };
+    }
+  }, [modalData]);
 
   return (
     <section className="portfolio-section" id="Portfolio">
@@ -57,7 +93,7 @@ const Portfolio = () => {
             >
               <div className="media-wrapper banner-style" style={{ position: 'relative' }}>
                 {item.mediaType === "image" ? (
-                  <img src={item.media} alt={item.title} />
+                  <img src={item.media} alt={item.title} referrerPolicy="no-referrer" />
                 ) : item.mediaType === "video" ? (
                   <>
                     <img
@@ -65,7 +101,6 @@ const Portfolio = () => {
                       alt={`${item.title} thumbnail`}
                       style={{ cursor: 'pointer' }}
                     />
-                    {/* Video play icon overlay */}
                     <div
                       style={{
                         position: 'absolute',
@@ -75,7 +110,7 @@ const Portfolio = () => {
                         pointerEvents: 'none',
                         width: '60px',
                         height: '60px',
-                        backgroundColor: 'rgba(0, 0, 0, 0.5)', // semi-transparent dark circle
+                        backgroundColor: 'rgba(0, 0, 0, 0.5)',
                         borderRadius: '50%',
                         display: 'flex',
                         alignItems: 'center',
@@ -87,7 +122,7 @@ const Portfolio = () => {
                       }}
                       aria-hidden="true"
                     >
-                      <i class="fa-solid fa-play"></i>
+                      <i className="fa-solid fa-play"></i>
                     </div>
                   </>
                 ) : null}
@@ -100,13 +135,22 @@ const Portfolio = () => {
         <button className="slider-arrow right" onClick={scrollRight} aria-label="Scroll Right">&#10095;</button>
       </div>
 
+      <Link to="/portfolio">
+        <button className="btn primary-btn text-white">View More Projects</button>
+      </Link>
+
       {modalData && (
         <div className="portfolio-modal" onClick={() => setModalData(null)}>
-          <div className="modal-content" onClick={e => e.stopPropagation()}>
+          <div
+            className="modal-content"
+            onClick={e => e.stopPropagation()}
+            style={{
+              width: modalSize.width,
+              height: modalSize.height,
+              transition: 'all 0.3s ease',
+            }}
+          >
             <span className="close-button" onClick={() => setModalData(null)}>&times;</span>
-            <h3>{modalData.title}</h3>
-            {/* <p><strong>Type:</strong> {modalData.type}</p> */}
-            {/* <p><strong>Subtype:</strong> {modalData.subtype}</p> */}
             <div className="modal-media">
               {modalData.mediaType === "image" ? (
                 <img src={modalData.media} alt={modalData.title} />
@@ -115,11 +159,10 @@ const Portfolio = () => {
                   src={modalData.media}
                   controls
                   autoPlay
-                  style={{ maxWidth: '100%', height: 'auto' }}
+                  style={{ maxWidth: '100%', maxHeight: '100%' }}
                 />
               ) : null}
             </div>
-            <p className="freelancer-name">By {modalData.freelancer}</p>
           </div>
         </div>
       )}
