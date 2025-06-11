@@ -7,8 +7,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (1).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (1).png",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570597/Thumbnail_5_dekr9t.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570597/Thumbnail_5_dekr9t.png",
     freelancer: "Noor Islam"
   },
 
@@ -18,8 +18,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (1).jpg",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (1).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570600/Thumbnail_1_xevd3p.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570600/Thumbnail_1_xevd3p.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -28,8 +28,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (2).jpg",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (2).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570586/Thumbnail_1_ibuuq9.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570586/Thumbnail_1_ibuuq9.png",
     freelancer: "Noor Islam"
   },
   {
@@ -38,8 +38,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (2).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (2).png",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570596/Thumbnail_2_iyb5di.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570596/Thumbnail_2_iyb5di.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -48,8 +48,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (3).jpg",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (3).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570602/Thumbnail_2_bdgqpq.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570602/Thumbnail_2_bdgqpq.png",
     freelancer: "Noor Islam"
   },
   {
@@ -58,8 +58,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (3).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (3).png",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570599/Thumbnail_3_ucyw7v.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570599/Thumbnail_3_ucyw7v.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -68,8 +68,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (4).jpg",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (4).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570590/Thumbnail_3_rft02v.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570590/Thumbnail_3_rft02v.png",
     freelancer: "Noor Islam"
   },
 
@@ -79,8 +79,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (5).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (5).png",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570593/Thumbnail_4_uhobns.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570593/Thumbnail_4_uhobns.png",
     freelancer: "Noor Islam"
   },
   {
@@ -89,8 +89,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (5).jpg",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (5).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570592/Thumbnail_5_wka5zu.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570592/Thumbnail_5_wka5zu.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -99,8 +99,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (6).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (6).png",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570585/Thumbnail_9_w1z9zr.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570585/Thumbnail_9_w1z9zr.png",
     freelancer: "Noor Islam"
 
   },
@@ -110,8 +110,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (6).jpg",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (6).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570591/Thumbnail_10_wqcz1b.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570591/Thumbnail_10_wqcz1b.png",
     freelancer: "Noor Islam"
   },
   {
@@ -120,8 +120,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (7).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (7).png",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570601/Thumbnail_6_coxbbm.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570601/Thumbnail_6_coxbbm.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -130,8 +130,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (7).jpg",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (7).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570592/Thumbnail_6_d0ikir.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570592/Thumbnail_6_d0ikir.png",
     freelancer: "Noor Islam"
   },
   {
@@ -140,8 +140,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (8).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (8).png",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570594/Thumbnail_7_zzxvyi.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570594/Thumbnail_7_zzxvyi.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -150,8 +150,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "/portfolio/graphic/Thumbnail/Thumbnail (9).png",
-    thumbnail: "/portfolio/graphic/Thumbnail/Thumbnail (9).png",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570596/Thumbnail_8_jlzu5w.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570596/Thumbnail_8_jlzu5w.png",
     freelancer: "Noor Islam"
   },
 
@@ -161,8 +161,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "/portfolio/graphic/Banner & Poster/Poster (1).jpg",
-    thumbnail: "/portfolio/graphic/Banner & Poster/Poster (1).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570418/Poster_1_e0ncw9.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570418/Poster_1_e0ncw9.png",
     freelancer: "Noor Islam"
   },
   {
@@ -171,8 +171,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "/portfolio/graphic/Banner & Poster/Poster (2).jpg",
-    thumbnail: "/portfolio/graphic/Banner & Poster/Poster (2).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570416/Poster_2_dqe2gi.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570416/Poster_2_dqe2gi.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -181,8 +181,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "/portfolio/graphic/Banner & Poster/Poster (3).JPG",
-    thumbnail: "/portfolio/graphic/Banner & Poster/Poster (3).JPG",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570419/Poster_3_wtbtck.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570419/Poster_3_wtbtck.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -191,8 +191,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "/portfolio/graphic/Banner & Poster/Poster (4).jpg",
-    thumbnail: "/portfolio/graphic/Banner & Poster/Poster (4).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570419/Poster_4_xyuzlv.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570419/Poster_4_xyuzlv.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -201,8 +201,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "/portfolio/graphic/Banner & Poster/Poster (5).jpg",
-    thumbnail: "/portfolio/graphic/Banner & Poster/Poster (5).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570418/Poster_5_q3oo6i.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570418/Poster_5_q3oo6i.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -221,8 +221,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "/portfolio/graphic/Banner & Poster/Poster (7).jpg",
-    thumbnail: "/portfolio/graphic/Banner & Poster/Poster (7).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570417/Poster_8_gmozgu.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570417/Poster_8_gmozgu.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -231,8 +231,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "/portfolio/graphic/Banner & Poster/Poster (8).jpg",
-    thumbnail: "/portfolio/graphic/Banner & Poster/Poster (8).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570416/Poster_9_srug9b.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570416/Poster_9_srug9b.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -241,19 +241,19 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "/portfolio/graphic/Banner & Poster/Poster (1).jpg",
-    thumbnail: "/portfolio/graphic/Banner & Poster/Poster (1).jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570417/Poster_1_bh709u.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570417/Poster_1_bh709u.jpg",
     freelancer: "Noor Islam"
   },
-
+  //LOGO DESIGN
   {
     "id": 25,
     "title": "Make My Gift - Logo Design",
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (1).jpg",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (1).jpg",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570542/Logo_1_bw1onb.jpg",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570542/Logo_1_bw1onb.jpg",
     "freelancer": "Noor Islam"
   },
   {
@@ -262,8 +262,8 @@ const portfolioData = [
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (1).png",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (1).png",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570545/Logo_1_pgfuvc.png",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570545/Logo_1_pgfuvc.png",
     "freelancer": "Noor Islam"
   },
   {
@@ -272,8 +272,8 @@ const portfolioData = [
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (2).jpg",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (2).jpg",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570546/Logo_2_jd2yqr.jpg",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570546/Logo_2_jd2yqr.jpg",
     "freelancer": "Noor Islam"
   },
   {
@@ -282,8 +282,8 @@ const portfolioData = [
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (2).png",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (2).png",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_2_heuxyx.png",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_2_heuxyx.png",
     "freelancer": "Noor Islam"
   },
   {
@@ -292,8 +292,8 @@ const portfolioData = [
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (3).jpg",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (3).jpg",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570537/Logo_3_zlur52.jpg",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570537/Logo_3_zlur52.jpg",
     "freelancer": "Noor Islam"
   },
   {
@@ -302,8 +302,8 @@ const portfolioData = [
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (3).png",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (3).png",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570543/Logo_3_sej4cq.png",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570543/Logo_3_sej4cq.png",
     "freelancer": "Noor Islam"
   },
   {
@@ -312,8 +312,8 @@ const portfolioData = [
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (4).jpg",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (4).jpg",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_4_bjzbsz.jpg",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_4_bjzbsz.jpg",
     "freelancer": "Noor Islam"
   },
   {
@@ -322,8 +322,8 @@ const portfolioData = [
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (5).jpg",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (5).jpg",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_5_cm2xso.jpg",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_5_cm2xso.jpg",
     "freelancer": "Noor Islam"
   },
   {
@@ -332,8 +332,8 @@ const portfolioData = [
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (6).jpg",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (6).jpg",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570540/Logo_6_gh693a.jpg",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570540/Logo_6_gh693a.jpg",
     "freelancer": "Noor Islam"
   },
   {
@@ -342,8 +342,8 @@ const portfolioData = [
     "type": "Graphic Design",
     "subtype": "Logo Design",
     "mediaType": "image",
-    "media": "/portfolio/graphic/Logo/Logo (7).jpg",
-    "thumbnail": "/portfolio/graphic/Logo/Logo (7).jpg",
+    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570541/Logo_7_otgk7h.jpg",
+    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570541/Logo_7_otgk7h.jpg",
     "freelancer": "Noor Islam"
   },
   {
@@ -352,8 +352,8 @@ const portfolioData = [
   "type": "Graphic Design",
   "subtype": "Website Design",
   "mediaType": "image",
-  "media": "/portfolio/graphic/Ui UX/UI&UX (1).jpg",
-  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (1).jpg",
+  "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
   "freelancer": "Noor Islam"
 },
 {
@@ -362,8 +362,8 @@ const portfolioData = [
   "type": "Graphic Design",
   "subtype": "Website Design",
   "mediaType": "image",
-  "media": "/portfolio/graphic/Ui UX/UI&UX (2).jpg",
-  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (2).jpg",
+  "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
   "freelancer": "Noor Islam"
 },
 {
@@ -372,8 +372,8 @@ const portfolioData = [
   "type": "Graphic Design",
   "subtype": "Website Design",
   "mediaType": "image",
-  "media": "/portfolio/graphic/Ui UX/UI&UX (3).jpg",
-  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (3).jpg",
+  "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570700/UI_UX_3_zkzj7z.jpg",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570700/UI_UX_3_zkzj7z.jpg",
   "freelancer": "Noor Islam"
 },
 {
@@ -382,8 +382,8 @@ const portfolioData = [
   "type": "Graphic Design",
   "subtype": "Website Design",
   "mediaType": "image",
-  "media": "/portfolio/graphic/Ui UX/UI&UX (4).jpg",
-  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (4).jpg",
+  "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_4_nbftp8.jpg",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_4_nbftp8.jpg",
   "freelancer": "Noor Islam"
 },
 {
@@ -392,8 +392,8 @@ const portfolioData = [
   "type": "Graphic Design",
   "subtype": "Website Design",
   "mediaType": "image",
-  "media": "/portfolio/graphic/Ui UX/UI&UX (5).jpg",
-  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (5).jpg",
+  "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570701/UI_UX_5_htis0c.jpg",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570701/UI_UX_5_htis0c.jpg",
   "freelancer": "Noor Islam"
 },
 {
@@ -402,8 +402,8 @@ const portfolioData = [
   "type": "Graphic Design",
   "subtype": "Website Design",
   "mediaType": "image",
-  "media": "/portfolio/graphic/Ui UX/UI&UX (6).jpg",
-  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (6).jpg",
+  "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
   "freelancer": "Noor Islam"
 },
 {
@@ -412,8 +412,8 @@ const portfolioData = [
   "type": "Graphic Design",
   "subtype": "Website Design",
   "mediaType": "image",
-  "media": "/portfolio/graphic/Ui UX/UI&UX (7).jpg",
-  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (7).jpg",
+  "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
   "freelancer": "Noor Islam"
 },
 {
@@ -422,8 +422,8 @@ const portfolioData = [
   "type": "Graphic Design",
   "subtype": "Website Design",
   "mediaType": "image",
-  "media": "/portfolio/graphic/Ui UX/UI&UX (8).jpg",
-  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (8).jpg",
+  "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
   "freelancer": "Noor Islam"
 },
 {
@@ -432,8 +432,8 @@ const portfolioData = [
   "type": "Graphic Design",
   "subtype": "Website Design",
   "mediaType": "image",
-  "media": "/portfolio/graphic/Ui UX/UI&UX (9).jpg",
-  "thumbnail": "/portfolio/graphic/Ui UX/UI&UX (9).jpg",
+  "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570695/UI_UX_9_em0ysl.jpg",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570695/UI_UX_9_em0ysl.jpg",
   "freelancer": "Noor Islam"
 }
 
