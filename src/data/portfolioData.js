@@ -435,6 +435,329 @@ const portfolioData = [
   "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570695/UI_UX_9_em0ysl.jpg",
   "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570695/UI_UX_9_em0ysl.jpg",
   "freelancer": "Noor Islam"
+},
+
+
+//Social media posts and ads
+{
+  "id": 100,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714231/Ad_S_lnoirc.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714231/Ad_S_lnoirc.mp4",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 101,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714524/Questioning_people_xkvmqs.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714524/Questioning_people_xkvmqs.mp4",
+  "freelancer": "Noor Islam"
+},
+{
+  "id": 102,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714458/Dharm_means_Dharm__nai1ri.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714458/Dharm_means_Dharm__nai1ri.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 103,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714458/lv_0_20250601150634_rj893v.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714458/lv_0_20250601150634_rj893v.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 104,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714458/lv_0_20250601130729_ezhoyp.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714458/lv_0_20250601130729_ezhoyp.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 105,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714425/1st_Reel_c1y7vh.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714425/1st_Reel_c1y7vh.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 106,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714424/3_x84mhb.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714424/3_x84mhb.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 107,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714422/Reel_87_Final_fdjukl.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714422/Reel_87_Final_fdjukl.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 108,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714418/Sample_zmnqtm.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714418/Sample_zmnqtm.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 109,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714417/2_1_vmprw6.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714417/2_1_vmprw6.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 110,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714415/That_Media_Sample_Assignment_-_Edit_ccystz.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714415/That_Media_Sample_Assignment_-_Edit_ccystz.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 111,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714413/Sample_11_fmvhi2.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714413/Sample_11_fmvhi2.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 112,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714412/Sample_2_wmmwrb.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714412/Sample_2_wmmwrb.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 113,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714410/Pterosaur_Evolution_dmelbz.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714410/Pterosaur_Evolution_dmelbz.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 114,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714408/7_Steps_Framework_Sample_qfpz4a.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714408/7_Steps_Framework_Sample_qfpz4a.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 115,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714406/Podcast_Intro_Clip_cg6qz9.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714406/Podcast_Intro_Clip_cg6qz9.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 116,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714405/Demo_4_exekj5.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714405/Demo_4_exekj5.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 117,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714405/Podcast_Reel_rntfgi.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714405/Podcast_Reel_rntfgi.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 118,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714405/Demo_5_iougqy.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714405/Demo_5_iougqy.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 119,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714306/3_kqhw9w.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714306/3_kqhw9w.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 120,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714306/Brand_Orium_Sample_axfr5m.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714306/Brand_Orium_Sample_axfr5m.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 121,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714305/TSC_Tiktok_Live_HiRes_qqs0om.mov",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714305/TSC_Tiktok_Live_HiRes_qqs0om.mov",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 122,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714237/Demo_6_pq0hp4.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714237/Demo_6_pq0hp4.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 123,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714232/Reel_53_final_changes_r1wp8v.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714232/Reel_53_final_changes_r1wp8v.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 124,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714228/5681_E_CANYON_RIDGE_NORTH_DRIVE_twmmpw.mov",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714228/5681_E_CANYON_RIDGE_NORTH_DRIVE_twmmpw.mov",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 125,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714227/VID-20241130-WA0006_h877wr.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714227/VID-20241130-WA0006_h877wr.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 126,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714225/Amista_Labs_dvf1ei.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714225/Amista_Labs_dvf1ei.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 127,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714224/Demo_2_puyrq2.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714224/Demo_2_puyrq2.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 128,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714225/Mifix_Media_S_gr6ek9.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714225/Mifix_Media_S_gr6ek9.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 129,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714222/Demo_3_amint0.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714222/Demo_3_amint0.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 130,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714220/Demo_1_lczrl9.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714220/Demo_1_lczrl9.mp4",
+  "freelancer": "Noor Islam"
+}, 
+{
+  "id": 131,
+  "title": "Video Editing",
+  "type": "Video Editing",
+  "subtype": "Video Editing",
+  "mediaType": "Video",
+  "media": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714219/Get_more_eyes_rdcqns.mp4",
+  "thumbnail": "https://res.cloudinary.com/dpgrs65id/video/upload/v1749714219/Get_more_eyes_rdcqns.mp4",
+  "freelancer": "Noor Islam"
 }
 
   //thumbnail-----------------------------------------------------
