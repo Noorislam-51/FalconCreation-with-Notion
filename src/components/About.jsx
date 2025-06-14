@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/components/About.css';
+import '../styles/components/about.css';
 
 const About = () => {
   const [showServe, setShowServe] = useState(false);

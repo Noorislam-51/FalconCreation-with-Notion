@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import servicesData from '../data/servicesData';
-import '../styles/components/Contact.css';
+import '../styles/components/contact.css';
 
 const ContactModal = ({ variant = "default" }) => {
   const [formData, setFormData] = useState({
