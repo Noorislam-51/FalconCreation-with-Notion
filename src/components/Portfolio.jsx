@@ -30,7 +30,9 @@ const Portfolio = () => {
   useEffect(() => {
     if (!modalData) return;
 
-    if (modalData.mediaType === 'image') {
+    const mediaType = modalData.mediaType.toLowerCase();
+
+    if (mediaType === 'image') {
       const img = new Image();
       img.src = modalData.media;
       img.onload = () => {
@@ -44,7 +46,7 @@ const Portfolio = () => {
           height: `${height * ratio}px`
         });
       };
-    } else if (modalData.mediaType === 'video') {
+    } else if (mediaType === 'video') {
       const video = document.createElement('video');
       video.src = modalData.media;
       video.onloadedmetadata = () => {
@@ -85,46 +87,46 @@ const Portfolio = () => {
         <button className="slider-arrow left" onClick={scrollLeft} aria-label="Scroll Left">&#10094;</button>
 
         <div className="portfolio-slider" ref={sliderRef}>
-          {filteredData.map(item => (
+          {filteredData.map((item) => (
             <div
               key={item.id}
               className="portfolio-card"
               onClick={() => setModalData(item)}
             >
-              <div className="media-wrapper banner-style" style={{ position: 'relative' }}>
-                {item.mediaType === "image" ? (
+              <div className="media-wrapper banner-style" style={{ position: "relative" }}>
+                {item.mediaType.toLowerCase() === "image" ? (
                   <img
                     src={item.media}
                     alt={item.title}
                     loading="lazy"
                     referrerPolicy="no-referrer"
                   />
-                ) : item.mediaType === "video" ? (
+                ) : item.mediaType.toLowerCase() === "video" ? (
                   <>
                     <img
-                      src={item.thumbnail || 'fallback-thumbnail.jpg'}
+                      src={item.thumbnail || "fallback-thumbnail.jpg"}
                       alt={`${item.title} thumbnail`}
                       loading="lazy"
-                      style={{ cursor: 'pointer' }}
+                      style={{ cursor: "pointer" }}
                     />
                     <div
                       style={{
-                        position: 'absolute',
-                        top: '50%',
-                        left: '50%',
-                        transform: 'translate(-50%, -50%)',
-                        pointerEvents: 'none',
-                        width: '60px',
-                        height: '60px',
-                        backgroundColor: 'rgba(0, 0, 0, 0.5)',
-                        borderRadius: '50%',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        color: 'white',
-                        fontSize: '2.5rem',
-                        boxShadow: '0 0 8px rgba(0, 0, 0, 0.7)',
-                        userSelect: 'none',
+                        position: "absolute",
+                        top: "50%",
+                        left: "50%",
+                        transform: "translate(-50%, -50%)",
+                        pointerEvents: "none",
+                        width: "60px",
+                        height: "60px",
+                        backgroundColor: "rgba(0, 0, 0, 0.5)",
+                        borderRadius: "50%",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "white",
+                        fontSize: "2.5rem",
+                        boxShadow: "0 0 8px rgba(0, 0, 0, 0.7)",
+                        userSelect: "none",
                       }}
                       aria-hidden="true"
                     >
@@ -158,14 +160,14 @@ const Portfolio = () => {
           >
             <span className="close-button" onClick={() => setModalData(null)}>&times;</span>
             <div className="modal-media">
-              {modalData.mediaType === "image" ? (
+              {modalData.mediaType.toLowerCase() === "image" ? (
                 <img src={modalData.media} alt={modalData.title} loading="lazy" />
-              ) : modalData.mediaType === "video" ? (
+              ) : modalData.mediaType.toLowerCase() === "video" ? (
                 <video
                   src={modalData.media}
                   controls
                   autoPlay
-                  preload="none"
+                  preload="auto"
                   style={{ maxWidth: '100%', maxHeight: '100%' }}
                 />
               ) : null}
