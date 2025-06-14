@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/components/navbar.css';
+import '../styles/components/Navbar.css';
 import ContactModal from './ContactModal';
 // import Logo from '../assets/logos/Logo.png'
 
