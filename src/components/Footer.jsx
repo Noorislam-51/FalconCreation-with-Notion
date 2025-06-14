@@ -16,7 +16,7 @@ const Footer = () => {
             {/* Logo Section */}
             <div className="footer-section logo-section">
               <div className="logo" onClick={() => scrollToSection('Home')}>
-                <img src="./public/logos/Logo.png" alt="FalconCreation Logo" className="logo-img" />
+                <img src="/logos/Logo.png" alt="FalconCreation Logo" className="logo-img" />
               </div>
 
               <p className="tagline">Where Creativity Takes Flight</p>
