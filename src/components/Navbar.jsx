@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <header className="navbar" data-aos="fade-down" data-aos-once="true">
       <div className="logo" onClick={() => scrollToSection('Home')}>
-        <img src="./public/logos/Logo.png" alt="FalconCreation Logo" className="logo-img" />
+        <img src="/logos/Logo.png" alt="FalconCreation Logo" className="logo-img" />
       </div>
 
 
