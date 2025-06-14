@@ -358,7 +358,8 @@ body {
     padding: 0 1rem;
   }
 
-  .portfolio-page-services-title, .portfolio-page-portfolio-title  {
+  .portfolio-page-services-title,
+  .portfolio-page-portfolio-title {
     font-size: 2rem;
   }
 
@@ -400,7 +401,8 @@ body {
 
 
   .portfolio-page-category-nav {
-    flex-direction: row !important; /* keep horizontal */
+    flex-direction: row !important;
+    /* keep horizontal */
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.4rem;
@@ -424,13 +426,15 @@ body {
     padding: 0 0.5rem;
   }
 
-  .portfolio-page-services-title, 
-  .portfolio-page-portfolio-title  {
+  .portfolio-page-services-title,
+  .portfolio-page-portfolio-title {
     font-size: 1.5rem;
   }
+
   .portfolio-page-banner {
-    height: 280px;
+    height: 180px;
   }
+
 
   .portfolio-page-banner-title {
     font-size: 1.8rem;
@@ -498,5 +502,3 @@ body {
     border-radius: 10px;
   }
 }
-
-

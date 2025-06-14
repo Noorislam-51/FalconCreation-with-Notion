@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/components/Contact.css';
+import '../styles/components/contact.css';
 import ContactModal from './ContactModal';
 
 const ContactForm = () => {

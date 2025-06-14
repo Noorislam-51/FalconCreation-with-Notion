@@ -290,6 +290,7 @@
 @media (max-width: 768px) {
   .contact-container {
     padding: 15px;
+    height: 150vh;
   }
 
   .heading {
@@ -311,6 +312,7 @@
 
   .contact-form {
     padding: 30px 25px;
+  
   }
 
   .form-row {

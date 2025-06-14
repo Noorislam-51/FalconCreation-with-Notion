@@ -15,10 +15,10 @@ const Footer = () => {
           <div className="footer-content">
             {/* Logo Section */}
             <div className="footer-section logo-section">
-              <a href="#home" className="logo">
-                <div className="logo-icon">🦅</div>
-                FalconCreation
-              </a>
+              <div className="logo" onClick={() => scrollToSection('Home')}>
+                <img src="./public/logos/Logo.png" alt="FalconCreation Logo" className="logo-img" />
+              </div>
+
               <p className="tagline">Where Creativity Takes Flight</p>
               <div className="social-media">
                 <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="social-icon">
