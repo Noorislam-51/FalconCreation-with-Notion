@@ -7,20 +7,19 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dgmypxszb/image/upload/v1749567609/portfolio/graphic/Thumbnail/Thumbnail_5_kszsfp.png",
-    thumbnail: "https://res.cloudinary.com/dgmypxszb/image/upload/v1749567609/portfolio/graphic/Thumbnail/Thumbnail_5_kszsfp.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906829/Thumbnail11-MdMisbahurRasol_ifhm5c.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906829/Thumbnail11-MdMisbahurRasol_ifhm5c.png",
+    freelancer: "Md Misbahur Rasool"
   },
-
   {
     id: 2,
     title: "Appointment Setting Scripts",
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570600/Thumbnail_1_xevd3p.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570600/Thumbnail_1_xevd3p.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906838/Thumbnail1-MdMisbahurRasol_sbauii.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906838/Thumbnail1-MdMisbahurRasol_sbauii.jpg",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 3,
@@ -28,9 +27,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570586/Thumbnail_1_ibuuq9.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570586/Thumbnail_1_ibuuq9.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906823/Thumbnail17-MdMisbahurRasol_jsvupx.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906823/Thumbnail17-MdMisbahurRasol_jsvupx.png",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 4,
@@ -38,9 +37,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570596/Thumbnail_2_iyb5di.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570596/Thumbnail_2_iyb5di.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906839/Thumbnail2-MdMisbahurRasol_y7qsni.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906839/Thumbnail2-MdMisbahurRasol_y7qsni.jpg",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 5,
@@ -48,9 +47,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570602/Thumbnail_2_bdgqpq.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570602/Thumbnail_2_bdgqpq.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906832/Thumbnail8-MdMisbahurRasol_su0epk.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906832/Thumbnail8-MdMisbahurRasol_su0epk.png",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 6,
@@ -58,11 +57,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dgmypxszb/image/upload/v1749567609/portfolio/graphic/Thumbnail/Thumbnail_3_zlldbq.jpg",
-    thumbnail: "https://res.cloudinary.com/dgmypxszb/image/upload/v1749567609/portfolio/graphic/Thumbnail/Thumbnail_3_zlldbq.jpg",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570599/Thumbnail_3_ucyw7v.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570599/Thumbnail_3_ucyw7v.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906836/Thumbnail3-MdMisbahurRasol_hewrdr.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906836/Thumbnail3-MdMisbahurRasol_hewrdr.jpg",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 7,
@@ -70,20 +67,19 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570590/Thumbnail_3_rft02v.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570590/Thumbnail_3_rft02v.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906831/Thumbnail9-MdMisbahurRasol_y3eq4u.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906831/Thumbnail9-MdMisbahurRasol_y3eq4u.png",
+    freelancer: "Md Misbahur Rasool"
   },
-
   {
     id: 8,
     title: "India's Win Confirm - Cricket World Cup",
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570593/Thumbnail_4_uhobns.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570593/Thumbnail_4_uhobns.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906830/Thumbnail10-MdMisbahurRasol_qcrwjc.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906830/Thumbnail10-MdMisbahurRasol_qcrwjc.png",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 9,
@@ -91,9 +87,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570592/Thumbnail_5_wka5zu.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570592/Thumbnail_5_wka5zu.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906835/Thumbnail5-MdMisbahurRasol_ueh77k.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906835/Thumbnail5-MdMisbahurRasol_ueh77k.jpg",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 10,
@@ -101,10 +97,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570585/Thumbnail_9_w1z9zr.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570585/Thumbnail_9_w1z9zr.png",
-    freelancer: "Noor Islam"
-
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906824/Thumbnail15-MdMisbahurRasol_jih46m.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906824/Thumbnail15-MdMisbahurRasol_jih46m.png",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 11,
@@ -112,9 +107,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570591/Thumbnail_10_wqcz1b.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570591/Thumbnail_10_wqcz1b.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906823/Thumbnail16-MdMisbahurRasol_hulhjj.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906823/Thumbnail16-MdMisbahurRasol_hulhjj.png",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 12,
@@ -122,9 +117,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570601/Thumbnail_6_coxbbm.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570601/Thumbnail_6_coxbbm.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906834/Thumbnail6-MdMisbahurRasol_eib9hd.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906834/Thumbnail6-MdMisbahurRasol_eib9hd.jpg",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 13,
@@ -132,9 +127,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570592/Thumbnail_6_d0ikir.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570592/Thumbnail_6_d0ikir.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906828/Thumbnail12-MdMisbahurRasol_wufrfh.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906828/Thumbnail12-MdMisbahurRasol_wufrfh.png",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 14,
@@ -142,9 +137,9 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570594/Thumbnail_7_zzxvyi.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570594/Thumbnail_7_zzxvyi.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906833/Thumbnail7-MdMisbahurRasol_tmextp.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906833/Thumbnail7-MdMisbahurRasol_tmextp.jpg",
+    freelancer: "Md Misbahur Rasool"
   },
   {
     id: 15,
@@ -152,397 +147,447 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "YouTube Thumbnails",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570596/Thumbnail_8_jlzu5w.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570596/Thumbnail_8_jlzu5w.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906827/Thumbnail13-MdMisbahurRasol_etlxdm.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906827/Thumbnail13-MdMisbahurRasol_etlxdm.png",
+    freelancer: "Md Misbahur Rasool"
   },
-  // poster & banner ------------------------------------------------------------
 
+  // ----------------------------poster and banner------------------------------------------
   {
-    id: 18,
+    id: 16,
     title: "COOLZY - Underwear Product Banner",
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570419/Poster_3_wtbtck.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570419/Poster_3_wtbtck.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906811/Banner1-parthHirpana_fihvui.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906811/Banner1-parthHirpana_fihvui.jpg",
+    freelancer: "Parth Hirpana"
   },
   {
-    id: 19,
-    title: "WOW Miss & Mrs Gujarat - Event Invitation",
+    id: 17,
+    title: "Fitness",
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570419/Poster_4_xyuzlv.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570419/Poster_4_xyuzlv.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906811/Banner4-MohitKisanSable_bwlhwa.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906811/Banner4-MohitKisanSable_bwlhwa.jpg",
+    freelancer: "Mohit Kisan Sable"
   },
   {
-    id: 20,
+    id: 18,
+    title: "Shopping _ At your fingerprint",
+    type: "Graphic Design",
+    subtype: "Posters & Banners",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906807/Banner5-MohitKisanSable_fuawpm.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906807/Banner5-MohitKisanSable_fuawpm.jpg",
+    freelancer: "Mohit Kisan Sable"
+  },
+  {
+    id: 19,
     title: "Big Discount Sale - 75% OFF",
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570418/Poster_5_q3oo6i.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570418/Poster_5_q3oo6i.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906807/Banner3-parthHirpana_vspn4i.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906807/Banner3-parthHirpana_vspn4i.jpg",
+    freelancer: "Parth Hirpana"
   },
   {
-    id: 21,
+    id: 20,
     title: "Sport Betting Platform Banner",
     type: "Graphic Design",
     subtype: "Posters & Banners",
     mediaType: "image",
-    media: "/portfolio/graphic/Poster6.jpg",
-    thumbnail: "/portfolio/graphic/Poster6.jpg",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906815/Banner2-parthHirpana_rgcice.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906815/Banner2-parthHirpana_rgcice.jpg",
+    freelancer: "Parth Hirpana"
+  },
+  // -----------------------------------logo --------------------------------------------------------------------------------------------------------------------------
+
+  {
+    id: 21,
+    title: "Make My Gift - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906817/Logo4-parthhirpara_bbe3n5.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906817/Logo4-parthhirpara_bbe3n5.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 22,
+    title: "Go Bazaar - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906818/Logo6-parthhirpara_itowen.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906818/Logo6-parthhirpara_itowen.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 23,
+    title: "Dream Clinic - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906817/Logo5-parthhirpara_mqrnd5.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906817/Logo5-parthhirpara_mqrnd5.png",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 24,
+    title: "Hotel Legend - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906816/Logo7-parthhirpara_eyiarh.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906816/Logo7-parthhirpara_eyiarh.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 25,
+    title: "Padmalata Creation - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906816/Logo8-parthhirpara_dienyh.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906816/Logo8-parthhirpara_dienyh.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 26,
+    title: "Mr.Chai Kettle - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906823/Logo2-parthhirpara_ocue1w.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906823/Logo2-parthhirpara_ocue1w.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 27,
+    title: "Supremo Adventure - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906822/Logo1-parthhirpara_z7dv9l.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906822/Logo1-parthhirpara_z7dv9l.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 28,
+    title: "Design Sursh - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906820/Logo3-parthhirpara_kyxztp.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906820/Logo3-parthhirpara_kyxztp.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 29,
+    title: "U & Mee Saloon - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906814/Logo10-parthhirpara_ujtlal.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906814/Logo10-parthhirpara_ujtlal.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 30,
+    title: "Sabras Masala - Logo Design",
+    type: "Graphic Design",
+    subtype: "Logo Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906812/Logo9-parthhirpara_tdy3je.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906812/Logo9-parthhirpara_tdy3je.png",
+    freelancer: "Parth Hirpara"
   },
 
-  // logo --------------------------------------------------------------------------------------------------------------------------
-  //LOGO DESIGN
+  // ------------------------------------------social media post-----------------------------------
   {
-    "id": 25,
-    "title": "Make My Gift - Logo Design",
-    "type": "Graphic Design",
-    "subtype": "Logo Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570542/Logo_1_bw1onb.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570542/Logo_1_bw1onb.jpg",
-    "freelancer": "Noor Islam"
-  },
-  // {
-  //   "id": 26,
-  //   "title": "Destination Fashion Hub - Logo Design",
-  //   "type": "Graphic Design",
-  //   "subtype": "Logo Design",
-  //   "mediaType": "image",
-  //   "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570545/Logo_1_pgfuvc.png",
-  //   "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570545/Logo_1_pgfuvc.png",
-  //   "freelancer": "Noor Islam"
-  // },
-  {
-    "id": 27,
-    "title": "Go Bazaar - Logo Design",
-    "type": "Graphic Design",
-    "subtype": "Logo Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570546/Logo_2_jd2yqr.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570546/Logo_2_jd2yqr.jpg",
-    "freelancer": "Noor Islam"
+    id: 31,
+    title: "Gomoswa Honey with Nuts & Seeds Product Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907313/Socialmediapost11-parthhirpara_tqltlj.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907313/Socialmediapost11-parthhirpara_tqltlj.jpg",
+    freelancer: "Parth Hirpara"
   },
   {
-    "id": 28,
-    "title": "Dream Clinic - Logo Design",
-    "type": "Graphic Design",
-    "subtype": "Logo Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_2_heuxyx.png",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_2_heuxyx.png",
-    "freelancer": "Noor Islam"
+    id: 32,
+    title: "Krisha Tourism Char Dham Package",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907315/Socialmediapost5-parthhirpara_qhfjzw.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907315/Socialmediapost5-parthhirpara_qhfjzw.jpg",
+    freelancer: "Parth Hirpara"
   },
   {
-    "id": 29,
-    "title": "Endodontic - Logo Design",
-    "type": "Graphic Design",
-    "subtype": "Logo Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570537/Logo_3_zlur52.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570537/Logo_3_zlur52.jpg",
-    "freelancer": "Noor Islam"
-  },
-  // {
-  //   "id": 30,
-  //   "title": "Fitness Fuel Gym - Logo Design",
-  //   "type": "Graphic Design",
-  //   "subtype": "Logo Design",
-  //   "mediaType": "image",
-  //   "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570543/Logo_3_sej4cq.png",
-  //   "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570543/Logo_3_sej4cq.png",
-  //   "freelancer": "Noor Islam"
-  // },
-  {
-    "id": 31,
-    "title": "Hotel Legend - Logo Design",
-    "type": "Graphic Design",
-    "subtype": "Logo Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_4_bjzbsz.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_4_bjzbsz.jpg",
-    "freelancer": "Noor Islam"
-  },
-  // {
-  //   "id": 32,
-  //   "title": "Optic - Logo Design",
-  //   "type": "Graphic Design",
-  //   "subtype": "Logo Design",
-  //   "mediaType": "image",
-  //   "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_5_cm2xso.jpg",
-  //   "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570538/Logo_5_cm2xso.jpg",
-  //   "freelancer": "Noor Islam"
-  // },
-  {
-    "id": 33,
-    "title": "Padmalata Creation - Logo Design",
-    "type": "Graphic Design",
-    "subtype": "Logo Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570540/Logo_6_gh693a.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570540/Logo_6_gh693a.jpg",
-    "freelancer": "Noor Islam"
+    id: 33,
+    title: "S Code Dressing - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907313/Socialmediapost8-parthhirpara_g2kglz.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907313/Socialmediapost8-parthhirpara_g2kglz.jpg",
+    freelancer: "Parth Hirpara"
   },
   {
-    "id": 34,
-    "title": "Mr.Chai Kettle - Logo Design",
-    "type": "Graphic Design",
-    "subtype": "Logo Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570541/Logo_7_otgk7h.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570541/Logo_7_otgk7h.jpg",
-    "freelancer": "Noor Islam"
+    id: 34,
+    title: "Rose Soap - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907318/Socialmediapost2-parthhirpara_gkoyzf.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907318/Socialmediapost2-parthhirpara_gkoyzf.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 35,
+    title: "New Year Rinku Cake - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907316/Socialmediapost3-parthhirpara_zqlt5l.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907316/Socialmediapost3-parthhirpara_zqlt5l.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 36,
+    title: "Home - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907311/Socialmediapost13-MohitKisanSable_g0blxl.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907311/Socialmediapost13-MohitKisanSable_g0blxl.jpg",
+    freelancer: "Mohit Kisan Sable"
+  },
+  {
+    id: 37,
+    title: "Discover Your Dream - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907311/Socialmediapost14-MohitKisanSable_urgtye.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907311/Socialmediapost14-MohitKisanSable_urgtye.jpg",
+    freelancer: "Mohit Kisan Sable"
+  },
+  {
+    id: 38,
+    title: "Kesar Milk Soap - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907315/Socialmediapost6-parthhirpara_v89jql.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907315/Socialmediapost6-parthhirpara_v89jql.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 39,
+    title: "Egg Shampoo - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907313/Socialmediapost9-parthhirpara_qfku6p.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907313/Socialmediapost9-parthhirpara_qfku6p.jpg",
+    freelancer: "Parth Hirpara"
+  },
+  {
+    id: 40,
+    title: "Mama Earth - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907313/Socialmediapost18-MohitKisanSable_e69h3r.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907313/Socialmediapost18-MohitKisanSable_e69h3r.jpg",
+    freelancer: "Mohit Kisan Sable"
+  },
+  {
+    id: 41,
+    title: "Biryani - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907311/Socialmediapost15-MohitKisanSable_tqpege.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907311/Socialmediapost15-MohitKisanSable_tqpege.jpg",
+    freelancer: "Mohit Kisan Sable"
+  },
+  {
+    id: 42,
+    title: "Mood Colddrink - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907311/Socialmediapost17-MohitKisanSable_pfc85s.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907311/Socialmediapost17-MohitKisanSable_pfc85s.jpg",
+    freelancer: "Mohit Kisan Sable"
+  },
+  {
+    id: 43,
+    title: "Burger Fries - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907309/Socialmediapost16-MohitKisanSable_axcc1d.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907309/Socialmediapost16-MohitKisanSable_axcc1d.png",
+    freelancer: "Mohit Kisan Sable"
+  },
+  {
+    id: 44,
+    title: "Coffee - Social Media Post",
+    type: "Graphic Design",
+    subtype: "Social Media Posts & Ads",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907309/Socialmediapost19-MohitKisanSable_f5fwar.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749907309/Socialmediapost19-MohitKisanSable_f5fwar.jpg",
+    freelancer: "Mohit Kisan Sable"
   },
 
-  // social media post --------------------------------------------------
-  // {
-  //   id: 45,
-  //   title: "Proton Academy NEET 2024 Toppers",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (6).jpg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (6).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // {
-  //   id: 46,
-  //   title: "Latika Travel Raksha Bandhan Wishes",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (7).jpg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (7).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // {
-  //   id: 47,
-  //   title: "Aagman Sahika Ganesh Chaturthi Invitation",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (8).jpg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (8).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // {
-  //   id: 48,
-  //   title: "Dhanna Kesar Milk Soap Product Advertisement",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (1).jpeg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (1).jpeg",
-  //   freelancer: "Noor Islam"
-  // },
-  // // {
-  // //   id: 49,
-  // //   title: "CarWale Father's Day Celebration Post",
-  // //   type: "Graphic Design",
-  // //   subtype: "Social Media Posts & Ads",
-  // //   mediaType: "image",
-  // //   media: "/portfolio/graphic/SocialMedia/Post (1).jpg",
-  // //   thumbnail: "/portfolio/graphic/SocialMedia/Post (1).jpg",
-  // //   freelancer: "Noor Islam"
-  // // },
-  // {
-  //   id: 50,
-  //   title: "Gomoswa Honey with Nuts & Seeds Product Post",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (2).jpg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (2).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // {
-  //   id: 51,
-  //   title: "Krisha Tourism Char Dham Package",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (3).jpg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (3).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // {
-  //   id: 52,
-  //   title: "14th Feb Cafe New Year Celebration",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (4).jpg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (4).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // {
-  //   id: 53,
-  //   title: "Latika Travels Service Advertisement",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (5).jpg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (5).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // {
-  //   id: 54,
-  //   title: "Proton Academy New Location Announcement",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (10).jpg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (10).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // {
-  //   id: 55,
-  //   title: "Zapvi - Jai Hind Phone Case Promotion",
-  //   type: "Graphic Design",
-  //   subtype: "Social Media Posts & Ads",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/SocialMedia/Post (11).jpg",
-  //   thumbnail: "/portfolio/graphic/SocialMedia/Post (11).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // Business card  -------------------------------------------------------------------------------------------------------------------------
+  // ---------------------------------------Business cards-----------------------------------
   {
-    id: 56,
+    id: 45,
     title: "PHC - Pramukh Hallmark Center Business Card",
     type: "Graphic Design",
     subtype: "Business Cards",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570428/Card_3_bjmkcq.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570428/Card_3_bjmkcq.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906849/Card3-parthhirpara_rn7azx.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906849/Card3-parthhirpara_rn7azx.png",
+    freelancer: "Parth Hirpana"
   },
   {
-    id: 57,
-    title: "Pioneer Education & Immigration Services Business Card",
+    id: 46,
+    title: "Innovative Arrow - Digital Services Business Card",
     type: "Graphic Design",
     subtype: "Business Cards",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570427/Card_4_a4vtbl.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570427/Card_4_a4vtbl.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906850/Card2-parthhirpara_or3iex.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906850/Card2-parthhirpara_or3iex.png",
+    freelancer: "Parth Hirpana"
   },
   {
-    id: 58,
+    id: 47,
+    title: "SCYKENZA - Business Card Design",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906846/Card8-mohitKisanSable_grntnc.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906846/Card8-mohitKisanSable_grntnc.jpg",
+    freelancer: "Mohit Kisan Sable"
+  },
+  {
+    id: 48,
     title: "Sejal's Fashion Studio - Wedding Wear Collection Business Card",
     type: "Graphic Design",
     subtype: "Business Cards",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570429/Card_5_hbfp16.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570429/Card_5_hbfp16.png",
-    freelancer: "Noor Islam"
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906849/Card5-parthhirpara_dbwxvp.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906849/Card5-parthhirpara_dbwxvp.png",
+    freelancer: "Parth Hirpana"
   },
-  // {
-  //   id: 59,
-  //   title: "Gurukripa Exports Business Card - Partial Design",
-  //   type: "Graphic Design",
-  //   subtype: "Business Cards",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/Business Cards/Card (2).jpg",
-  //   thumbnail: "/portfolio/graphic/Business Cards/Card (2).jpg",
-  //   freelancer: "Noor Islam"
-  // },
   {
-    id: 60,
+    id: 49,
     title: "Green Hightech - The Growing Engine Business Card",
     type: "Graphic Design",
     subtype: "Business Cards",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570427/Card_1_liik1c.png",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570427/Card_1_liik1c.png",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906851/Card1-parthhirpara_z4wu6j.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906851/Card1-parthhirpara_z4wu6j.png",
+    freelancer: "Parth Hirpana"
+  },
+  {
+    id: 50,
+    title: "SCYKENZA - Business Card Design",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906846/Card6-mohitKisanSable_vfabfw.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906846/Card6-mohitKisanSable_vfabfw.jpg",
+    freelancer: "Mohit Kisan Sable"
+  },
+  {
+    id: 51,
+    title: "Pioneer Education & Immigration Services Business Card",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906847/Card4-parthhirpara_bpyu9a.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906847/Card4-parthhirpara_bpyu9a.png",
+    freelancer: "Parth Hirpana"
+  },
+  {
+    id: 52,
+    title: "SCYKENZA - Business Card Design",
+    type: "Graphic Design",
+    subtype: "Business Cards",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906845/Card7-mohitKisanSable_vquetv.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749906845/Card7-mohitKisanSable_vquetv.jpg",
+    freelancer: "Mohit Kisan Sable"
+  },
+
+  //----------------------------------- Website Design--------------------------------------------
+  {
+    id: 53,
+    title: "Beauty Center Landing Page",
+    type: "Graphic Design",
+    subtype: "Website Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
     freelancer: "Noor Islam"
   },
-  // {
-  //   id: 61,
-  //   title: "Gurukripa Exports - Complete Business Card Design",
-  //   type: "Graphic Design",
-  //   subtype: "Business Cards",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/Business Cards/Card (1).jpg",
-  //   thumbnail: "/portfolio/graphic/Business Cards/Card (1).jpg",
-  //   freelancer: "Noor Islam"
-  // },
-  // {
-  //   id: 62,
-  //   title: "Innovative Arrow - Digital Services Business Card",
-  //   type: "Graphic Design",
-  //   subtype: "Business Cards",
-  //   mediaType: "image",
-  //   media: "/portfolio/graphic/Business Cards/Card (2).png",
-  //   thumbnail: "/portfolio/graphic/Business Cards/Card (2).png",
-  //   freelancer: "Noor Islam"
-  // }
+  {
+    id: 54,
+    title: "E‑commerce App – User Profile Screen",
+    type: "Graphic Design",
+    subtype: "Website Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
+    freelancer: ""
+  },
+  {
+    id: 55,
+    title: "Digital Agency One‑Page Layout",
+    type: "Graphic Design",
+    subtype: "Website Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 56,
+    title: "Cafe Crust Website – Menu Showcase",
+    type: "Graphic Design",
+    subtype: "Website Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 57,
+    title: "Cafe Crust Website – Menu Showcase",
+    type: "Graphic Design",
+    subtype: "Website Design",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
+    freelancer: "Noor Islam"
+  }
   ,
 
 
-  // website desig-------------------------------------------------------
-  {
-
-
-    "id": 35,
-    "title": "Beauty Center Landing Page",
-    "type": "Graphic Design",
-    "subtype": "Website Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
-    "freelancer": "Noor Islam"
-  },
-  {
-    "id": 36,
-    "title": "E‑commerce App – User Profile Screen",
-    "type": "Graphic Design",
-    "subtype": "Website Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
-    "freelancer": "Noor Islam"
-  },
-  {
-    "id": 40,
-    "title": "Digital Agency One‑Page Layout",
-    "type": "Graphic Design",
-    "subtype": "Website Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
-    "freelancer": "Noor Islam"
-  },
-  {
-    "id": 41,
-    "title": "Cafe Crust Website – Menu Showcase",
-    "type": "Graphic Design",
-    "subtype": "Website Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
-    "freelancer": "Noor Islam"
-  },
-  {
-    "id": 42,
-    "title": "Cafe Crust Website – Menu Showcase",
-    "type": "Graphic Design",
-    "subtype": "Website Design",
-    "mediaType": "image",
-    "media": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
-    "thumbnail": "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
-    "freelancer": "Noor Islam"
-  },
 
 
 
+// ------------------------------video------------------------------------------------------------
   //Social media posts and ads
 
   {

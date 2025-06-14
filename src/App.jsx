@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import AboutPage from './pages/AboutPage'
+
 import PortfolioPage from './pages/PortfolioPage'
 function HomePage() {
   return (

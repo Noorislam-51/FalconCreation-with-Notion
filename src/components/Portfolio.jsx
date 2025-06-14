@@ -134,7 +134,7 @@ const Portfolio = () => {
                     </div>
                   </>
                 ) : null}
-                <p className="freelancer-overlay">By {item.freelancer}</p>
+               <b> <p className="freelancer-overlay">Project by freelancer {item.freelancer}</p></b>
               </div>
             </div>
           ))}

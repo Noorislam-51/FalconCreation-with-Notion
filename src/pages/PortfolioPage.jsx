@@ -153,7 +153,7 @@ const PortfolioPage = () => {
                         <div className="portfolio-page-portfolio-info">
                           <h3 className="portfolio-page-portfolio-item-title">{item.title}</h3>
                           <p className="portfolio-page-portfolio-subtype">{item.subtype}</p>
-                          <p className="portfolio-page-portfolio-freelancer">by {item.freelancer}</p>
+                            <b> <p className="portfolio-page-portfolio-freelancer">Project by freelancer {item.freelancer}</p></b>
                         </div>
                       </div>
                     </div>
