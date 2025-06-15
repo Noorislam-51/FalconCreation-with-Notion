@@ -202,6 +202,7 @@
 }
 
 @media (max-width: 768px) {
+ 
   .agency-container {
     padding: 30px 15px;
   }
@@ -226,6 +227,9 @@
 @media (max-width: 480px) {
   .agency-heading {
     font-size: 24px;
+  }
+  .agency-visuals img{
+    display: none;
   }
 
   .agency-description,

@@ -34,12 +34,18 @@ const Navbar = () => {
       </div>
 
 
-      
+
       <nav className={`nav ${menuOpen ? 'active' : ''}`}>
         <ul className="nav-list">
           {['Home', 'Services', 'Portfolio', 'About', 'Contact'].map((id) => (
             <li className="nav-item" key={id}>
-              <button className="nav-link " onClick={() => scrollToSection(id)}>
+              <button
+                className="nav-link"
+                onClick={() => {
+                  scrollToSection(id);
+                  setMenuOpen(false); // closes menu after clicking
+                }}
+              >
                 {id.toUpperCase()}
               </button>
             </li>
@@ -51,7 +57,7 @@ const Navbar = () => {
       <button className="btn primary-btn btn-for-small" onClick={openModal}>
         Hire Us Today →
       </button>
-          <button className="hamburger" onClick={toggleMenu}>☰</button>
+      <button className="hamburger" onClick={toggleMenu}>☰</button>
       {isModalOpen && (
         <div className="modal-backdrop" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()} >

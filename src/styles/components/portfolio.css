@@ -94,17 +94,6 @@
   .slider-arrow.left {
     left: 0;
   }
-<<<<<<< HEAD
-=======
-
-
-@media (max-width: 480px){
-  .portfolio-heading{
-    font-size: 1.4rem;
-    font-weight: bold;
-  }
-}
->>>>>>> origin/responsive-R
 
   .slider-arrow.right {
     right: 0;
@@ -287,7 +276,6 @@
       aspect-ratio: 3 / 1.5;
     }
   }
-<<<<<<< HEAD
 
 
 @media (max-width: 480px){
@@ -295,6 +283,5 @@
     font-size: 1.4rem;
     font-weight: bold;
   }
+  
 }
-=======
->>>>>>> origin/responsive-R

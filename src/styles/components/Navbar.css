@@ -117,10 +117,12 @@
     display: none;
   }
 
-  .nav.active {
-    display: flex;
-    animation: dropdown 0.3s ease-out;
-  }
+ .nav.active {
+  display: flex;
+  background-color: rgba(254, 254, 254, 0.735); /* black with 50% transparency */
+  animation: dropdown 0.3s ease-out;
+}
+
 
   .nav-list {
     flex-direction: column;
