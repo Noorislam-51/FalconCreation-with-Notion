@@ -64,11 +64,13 @@
 
 .secondary-btn {
   background-color: transparent;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid var(--Accent);
+  color: var(--Accent);
 }
 
 .secondary-btn:hover {
   background-color: white;
-  color: var(--Primary);
+  color: var(--Accent-hover);
+  
+  border: 2px solid var(--Accent-hover);
 }

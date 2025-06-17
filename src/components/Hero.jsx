@@ -39,11 +39,11 @@ const Hero = () => {
               stunning designs, and engaging videos to grow your brand online.
             </p>
             <div className="hero-buttons">
-              <button className="btn primary-btn" onClick={openModal}>
+              <button className="btn primary-btn" onClick={() => scrollToSection('Contact')}>
                Hire Us Today →
               </button>
-              <button className="btn secondary-btn" onClick={() => scrollToSection('About')}>
-                Learn More
+              <button className="btn secondary-btn" onClick={() => scrollToSection('Portfolio')}>
+                View Work
               </button>
             </div>
           </div>

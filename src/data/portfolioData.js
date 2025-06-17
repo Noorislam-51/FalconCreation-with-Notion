@@ -585,7 +585,59 @@ const portfolioData = [
 
 
 
+  // -----------------------web dev------------------------------------------------------------
 
+{
+  id: 58,
+  title: "Beauty Center Landing Page",
+  type: "Web Development",
+  subtype: "Frontend Development",
+  mediaType: "image",
+  media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
+  thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
+  freelancer: "Noor Islam"
+},
+// {
+//   id: 59,
+//   title: "E‑commerce App – User Profile Screen",
+//   type: "Web Development",
+//   subtype: "Website Design",
+//   mediaType: "image",
+//   media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
+//   thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
+//   freelancer: ""
+// },
+{
+  id: 60,
+  title: "Digital Agency One‑Page Layout",
+  type: "Web Development",
+  subtype: "Frontend Development",
+  mediaType: "image",
+  media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
+  thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
+  freelancer: "Noor Islam"
+},
+{
+  id: 61,
+  title: "Cafe Crust Website – Menu Showcase",
+  type: "Web Development",
+  subtype: "Frontend Development",
+  mediaType: "image",
+  media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
+  thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
+  freelancer: "Noor Islam"
+},
+{
+  id: 62,
+  title: "Cafe Crust Website – Menu Showcase",
+  type: "Web Development",
+  subtype: "Frontend Development",
+  mediaType: "image",
+  media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
+  thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
+  freelancer: "Noor Islam"
+}
+,
 
 // ------------------------------video------------------------------------------------------------
   //Social media posts and ads
