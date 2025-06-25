@@ -102,21 +102,21 @@
   .slider-arrow:hover {
     background: var(--Primary);
   }
+.portfolio-slider {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, 1fr); /* Two visible rows */
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 0;
+  width: 90%;
+  height: 440px; /* = 2 cards (200px each) + gap (20px) + buffer */
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  margin-bottom: 5px;
+}
 
-  .portfolio-slider {
-    display: flex;
-    /* Remove wrapping */
-    flex-wrap: nowrap;
-    /* Changed from wrap to nowrap */
-    gap: 20px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding: 20px 0;
-    width: 90%;
-    max-height: 250px;
-    /* adjust height to card height + padding */
-    scrollbar-width: none;
-  }
 
 
 
@@ -143,6 +143,7 @@
     overflow: hidden;
     position: relative;
     border-radius: 8px;
+    scroll-snap-align: start;
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
