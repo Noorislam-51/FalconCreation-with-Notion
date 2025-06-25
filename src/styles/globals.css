@@ -60,6 +60,7 @@
 .primary-btn:hover {
   background-color: var(--Accent-hover);
   color: white;
+  
 }
 
 .secondary-btn {
