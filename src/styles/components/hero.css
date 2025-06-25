@@ -233,14 +233,17 @@
     font-size: 0.95rem;
   }
 
-  .btn.primary-btn{
-    font-size: 1.01rem;
-    padding: 0.6rem 0.8rem;
+  .btn.primary-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
     width: 100%;
+    text-align: center;
+
   }
+
   .btn.secondary-btn {
-    font-size: 0.95rem;
-    padding: 6px 18px;
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
     width: 100%;
     text-align: center;
   }
@@ -286,6 +289,7 @@
 
   .btn.primary-btn,
   .btn.secondary-btn {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    padding: 8px 16px;
   }
 }
