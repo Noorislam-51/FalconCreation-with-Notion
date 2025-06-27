@@ -188,7 +188,8 @@
 @media (max-width: 1024px) {
   .agency-main {
     flex-direction: column;
-    gap: 40px;
+    gap: 0px;
+ 
   }
 
   .agency-visuals, .agency-content {
