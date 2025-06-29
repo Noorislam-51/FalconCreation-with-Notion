@@ -1,5 +1,5 @@
 const servicesData = [
- 
+
   {
     id: 2,
     title: "Graphic Design",
@@ -21,6 +21,29 @@ const servicesData = [
         "Social Media Posts & Ads"
       ],
       cta: "Get a Design Now"
+    }
+  },
+    {
+    id: 1,
+    title: "Web Development",
+    description: "Craft responsive, scalable websites.",
+    iconClass: "fa-solid fa-code",
+    avatar: "https://img.icons8.com/ios-filled/100/000000/developer.png",
+    bgClass: "bg-blue",
+    colorClass: "icon-blue",
+    modal: {
+      title: "Web Development Services",
+      intro: "We build responsive, fast, and scalable websites that meet your business goals.",
+      services: [
+        "High-Converting Landing Page Design",
+        "Custom Business Website Design",
+        "Redesign of Existing Websites",
+        "WordPress & Elementor Based Solutions",
+        "No-Code Websites",
+        "Responsive & Mobile-Friendly Layouts",
+        "Domain & Hosting Setup"
+      ],
+      cta: "Get a Quote"
     }
   },
   {
@@ -47,29 +70,6 @@ const servicesData = [
       cta: "Book an Editor"
     }
   },
-   {
-    id: 1,
-    title: "Web Development",
-    description: "Craft responsive, scalable websites.",
-    iconClass: "fa-solid fa-code",
-    avatar: "https://img.icons8.com/ios-filled/100/000000/developer.png",
-    bgClass: "bg-blue",
-    colorClass: "icon-blue",
-    modal: {
-      title: "Web Development Services",
-      intro: "We build responsive, fast, and scalable websites that meet your business goals.",
-      services: [
-        "WordPress Development",
-        "Frontend Development",
-        "Backend Development",
-        "Full Stack Development",
-        "Elementor Page Design",
-        "Webflow (No Code)",
-        "Shopify / E-commerce Setup",
-        "Website Maintenance & Bug Fixes"
-      ],
-      cta: "Get a Quote"
-    }
-  }];
+];
 
 export default servicesData;

@@ -537,8 +537,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Website Design",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206603/Beauty_parlour_rqljp7.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206602/20250416_170011_o3fshf.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -547,8 +547,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Website Design",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206603/68747470733a2f2f666c6f77626974652e73332e616d617a6f6e6177732e636f6d2f6769746875622f73637265656e73686f742e706e67_p7jziw.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206603/68747470733a2f2f666c6f77626974652e73332e616d617a6f6e6177732e636f6d2f6769746875622f73637265656e73686f742e706e67_p7jziw.png",
     freelancer: ""
   },
   {
@@ -557,8 +557,8 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Website Design",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206603/Preview_m4xi8n.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206602/20250416_170044_winkmx.jpg",
     freelancer: "Noor Islam"
   },
   {
@@ -567,79 +567,60 @@ const portfolioData = [
     type: "Graphic Design",
     subtype: "Website Design",
     mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206605/screencapture-localhost-5173-2025-01-24-20_12_50_kssmrq.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206604/20250416_170029_eq7aak.jpg",
     freelancer: "Noor Islam"
   },
-  {
-    id: 57,
-    title: "Cafe Crust Website – Menu Showcase",
-    type: "Graphic Design",
-    subtype: "Website Design",
-    mediaType: "image",
-    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
-    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
-    freelancer: "Noor Islam"
-  }
-  ,
+
 
 
 
   // -----------------------web dev------------------------------------------------------------
 
-{
-  id: 58,
-  title: "Beauty Center Landing Page",
-  type: "Web Development",
-  subtype: "Frontend Development",
-  mediaType: "image",
-  media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
-  thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570703/UI_UX_1_tihiyz.jpg",
-  freelancer: "Noor Islam"
-},
-// {
-//   id: 59,
-//   title: "E‑commerce App – User Profile Screen",
-//   type: "Web Development",
-//   subtype: "Website Design",
-//   mediaType: "image",
-//   media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
-//   thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570699/UI_UX_2_kqlazy.jpg",
-//   freelancer: ""
-// },
-{
-  id: 60,
-  title: "Digital Agency One‑Page Layout",
-  type: "Web Development",
-  subtype: "Frontend Development",
-  mediaType: "image",
-  media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
-  thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570697/UI_UX_6_ixzvbd.jpg",
-  freelancer: "Noor Islam"
-},
-{
-  id: 61,
-  title: "Cafe Crust Website – Menu Showcase",
-  type: "Web Development",
-  subtype: "Frontend Development",
-  mediaType: "image",
-  media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
-  thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570696/UI_UX_7_suhtzi.jpg",
-  freelancer: "Noor Islam"
-},
-{
-  id: 62,
-  title: "Cafe Crust Website – Menu Showcase",
-  type: "Web Development",
-  subtype: "Frontend Development",
-  mediaType: "image",
-  media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
-  thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1749570698/UI_UX_8_jeacql.jpg",
-  freelancer: "Noor Islam"
-}
-,
+  //================================web dev=======================================================
+    {
+    id: 63,
+    title: "Cafe Crust Website – Interactive Menu Page",
+    type: "Web Development",
+    subtype: "Restaurant Website",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206605/screencapture-localhost-5173-2025-01-24-20_12_50_kssmrq.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206604/20250416_170029_eq7aak.jpg",
+    freelancer: "Noor Islam"
+  },
 
-// ------------------------------video------------------------------------------------------------
+  {
+    id: 60,
+    title: "Beauty Center Landing Page (Web Development)",
+    type: "Web Development",
+    subtype: "Landing Page",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206603/Beauty_parlour_rqljp7.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206602/20250416_170011_o3fshf.jpg",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 61,
+    title: "E‑commerce App – User Profile Integration",
+    type: "Web Development",
+    subtype: "E-commerce",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206603/68747470733a2f2f666c6f77626974652e73332e616d617a6f6e6177732e636f6d2f6769746875622f73637265656e73686f742e706e67_p7jziw.png",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206603/68747470733a2f2f666c6f77626974652e73332e616d617a6f6e6177732e636f6d2f6769746875622f73637265656e73686f742e706e67_p7jziw.png",
+    freelancer: "Noor Islam"
+  },
+  {
+    id: 62,
+    title: "Digital Agency One‑Page Responsive Layout",
+    type: "Web Development",
+    subtype: "Single Page Website",
+    mediaType: "image",
+    media: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206603/Preview_m4xi8n.jpg",
+    thumbnail: "https://res.cloudinary.com/dpgrs65id/image/upload/v1751206602/20250416_170044_winkmx.jpg",
+    freelancer: "Noor Islam"
+  },
+
+  // ------------------------------video------------------------------------------------------------
   //Social media posts and ads
 
   {

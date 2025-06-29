@@ -167,18 +167,19 @@
     position: relative;
   }
 
-
-
-  .freelancer-overlay {
-    position: absolute;
-    bottom: 10px;
-    left: 15px;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 5px 10px;
-    font-size: 0.9rem;
-    border-radius: 4px;
-  }
+.freelancer-overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: #ccc;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  /* opacity: 0.8  ; */
+  pointer-events: none;
+  user-select: none;
+}
 
   .portfolio-modal {
     position: fixed;
