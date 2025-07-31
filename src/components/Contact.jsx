@@ -7,12 +7,12 @@ const ContactForm = () => {
     <div className="contact-container" id="Contact">
 
       <div className="contact-wrapper">
-      <div className='contactHead'>
-        <span className="label">Contact</span>
-        <h2 className="heading contact-head">Get In Touch</h2>
-        <p className="subheading">Ready to start your next project? Contact us directly through the form below or reach out via your preferred method.</p>
+        <div className='contactHead'>
+          <span className="label">Contact</span>
+          <h2 className="heading contact-head">Get In Touch</h2>
+          <p className="subheading">Ready to start your next project? Contact us directly through the form below or reach out via your preferred method.</p>
 
-       </div>
+        </div>
 
 
         <div className="contact-content">
@@ -44,23 +44,22 @@ const ContactForm = () => {
               <div className="contact-item">
                 <div className="contact-icon">📍</div>
                 <div className="contact-text">
-                 Noida, India
+                  Noida, India
                 </div>
               </div>
             </div>
             <div className="social-media">
-              <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="social-icon">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="social-icon">
-                <i className="fab fa-twitter"></i>
-              </a>
               <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-icon">
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="social-icon">
                 <i className="fab fa-instagram"></i>
               </a>
+              <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="social-icon">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+
+
             </div>
 
 

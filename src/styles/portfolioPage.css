@@ -491,7 +491,7 @@ body {
 
   .portfolio-page-category-nav {
     flex-direction: row !important;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 0.3rem;
   }

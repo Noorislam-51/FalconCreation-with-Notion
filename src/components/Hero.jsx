@@ -50,10 +50,9 @@ const Hero = () => {
 
           <div className="hero-socials">
             <a href="https://www.instagram.com/falconcreation5114/?hl=en" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+            <a href="https://www.linkedin.com/company/falconcreation51/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+            <a href="https://www.facebook.com/profile.php?id=61577250296637" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+           
           </div>
         </div>
 

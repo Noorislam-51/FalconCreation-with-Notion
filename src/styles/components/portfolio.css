@@ -265,6 +265,7 @@
     }
 
     .portfolio-slider {
+      /* overflow-x: visible; */
       width: 100%;
     }
 
